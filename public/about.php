@@ -23,7 +23,7 @@
 Our team: <br/>
 
 Alexander Batsuev — Team Lead Lead<br/>
-Sergeii Korobov — Lead Developer<br/>
+Sergeii Korobov — Lead House Developer<br/>
 Maxim Perelygin — Lead Game Inventor<br/>
 Stepan Legachev — Lead Nose Picker<br/>
 Sergay Kiselev — Lead Crybaby Engineer<br/>
@@ -33,8 +33,8 @@ Julia Dubinina — Lead Wannabe Senior Java Developer<br/>
 Ilya Chernikov — Lead Connectivity Provider<br/>
 Anton Chaporgin — Lead Search Engine Insider<br/>
 Alexander Kuzmin — Lead Fiction Writer<br/>
-Eugene Borman Elesin — Opposition Support Team Lead<br/>
-Oleg Roschupkin — Lead Dick Pic Provider<br/>
+Eugene Borman Elesin — Offshore Opposition Support Team Lead<br/>
+Oleg Roschupkin — Lead Emergency Dick Pic Provider<br/>
 <br/>
 
 
