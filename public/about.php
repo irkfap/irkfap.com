@@ -28,7 +28,7 @@ Maxim Perelygin — Lead Game Inventor<br/>
 Stepan Legachev — Lead Nose Picker<br/>
 Sergay Kiselev — Lead Crybaby Engineer<br/>
 Vyacheslav Kovalyov — Lead Mini Cooper Driver<br/>
-Dmitrii Sizikov — Lead Bicycle Sledge Dog Driver<br/>
+Dmitrii Sizikov — Lead Bicycle &amp; Sledge Dog Driver<br/>
 Julia Dubinina — Lead Wannabe Senior Java Developer<br/>
 Ilya Chernikov — Lead Connectivity Provider<br/>
 Anton Chaporgin — Lead Search Engine Insider<br/>
