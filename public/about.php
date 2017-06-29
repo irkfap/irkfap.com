@@ -9,6 +9,8 @@
 
     <title>About Irkfap community</title>
 
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
     <meta name="robots" content="index, follow">
     <link rel="dns-prefetch" href="https://mc.yandex.ru">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
