@@ -20,7 +20,7 @@
 <body role="document">
 
 
-Our team: <br/>
+<h3>Our team:</h3>
 
 Alexander Batsuev — Team Lead Lead<br/>
 Sergeii Korobov — Lead Fortress Developer<br/>
@@ -40,7 +40,7 @@ Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
 <br/>
 
 
-
+<br/>
 <?php date_default_timezone_set('Europe/London'); ?>
 ©&nbsp;2009-<?php echo date('Y'); ?> <a href="/">Irkfap community</a>
 
