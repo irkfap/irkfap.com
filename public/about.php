@@ -23,7 +23,7 @@
 Our team: <br/>
 
 Alexander Batsuev — Team Lead Lead<br/>
-Sergeii Korobov — Lead House Developer<br/>
+Sergeii Korobov — Lead Fortress Developer<br/>
 Maxim Perelygin — Lead Game Inventor<br/>
 Stepan Legachev — Lead Nose Picker<br/>
 Sergay Kiselev — Lead Crybaby Engineer<br/>
@@ -35,6 +35,8 @@ Anton Chaporgin — Lead Search Engine Insider<br/>
 Alexander Kuzmin — Lead Fiction Writer<br/>
 Eugene Borman Elesin — Offshore Opposition Support Team Lead<br/>
 Oleg Roschupkin — Lead Emergency Dick Pic Provider<br/>
+Vladimir Goshev — Lead Cat Horde Handler<br/>
+Ivan Sidorov — Lead Nietzsche Interpreter<br/>
 <br/>
 
 
