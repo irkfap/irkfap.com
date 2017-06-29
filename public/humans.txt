@@ -9,5 +9,5 @@
 	The encoder: Stepan Legachev | https://sib.li
 
 /* NOTES */
-    Follow us on twitter if you read this ^_^
+	Follow us on twitter if you read this ^_^
 
