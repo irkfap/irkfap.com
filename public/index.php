@@ -31,7 +31,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 
 <pre>
  ____________
-< Irkfap.com >
+&lt; Irkfap.com &gt;
  ------------
         \   ^__^
          \  (oo)\_______
