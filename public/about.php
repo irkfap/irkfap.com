@@ -36,7 +36,7 @@ Alexander Kuzmin — Lead Fiction Writer<br/>
 Eugene Borman Elesin — Offshore Opposition Support Team Lead<br/>
 Oleg Roschupkin — Lead Emergency Dick Pic Provider<br/>
 Vladimir Goshev — Lead Cat Horde Handler<br/>
-Ivan Sidorov — Lead Nietzsche Interpreter<br/>
+Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
 <br/>
 
 
