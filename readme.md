@@ -2,4 +2,4 @@
 Community Website
 -----------------
 
-→ [irkfap.com](irkfap.com)
+→ [irkfap.com](http://irkfap.com)
