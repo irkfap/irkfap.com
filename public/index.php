@@ -23,7 +23,7 @@ Twitter: <a href="https://twitter.com/irkfap">@irkfap</a>
 <br/>
 
 <?php
-$addresses  = ['invite', 'abuse'];
+$addresses  = ['invite', 'abuse', 'support', 'feedback', 'job', 'hr'];
 $address    = $addresses[array_rand($addresses)] . '@irkfap.com';
 ?>
 Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
