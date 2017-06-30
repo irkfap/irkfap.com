@@ -29,7 +29,7 @@ Stepan Legachev — Lead Nose Picker<br/>
 Sergay Kiselev — Lead Crybaby Engineer<br/>
 Vyacheslav Kovalyov — Lead Mini Cooper Driver<br/>
 Dmitrii Sizikov — Lead Bicycle &amp; Sledge Dog Driver<br/>
-Julia Dubinina — Lead Wannabe Senior Java Developer<br/>
+Yulia Dubinina — Lead Wannabe Senior Java Developer<br/>
 Ilya Chernikov — Lead Connectivity Provider<br/>
 Anton Chaporgin — Lead Search Engine Insider<br/>
 Alexander Kuzmin — Lead Fiction Writer<br/>
@@ -37,6 +37,7 @@ Eugene Borman Elesin — Offshore Opposition Support Team Lead<br/>
 Oleg Roschupkin — Lead Emergency Dick Pic Provider<br/>
 Vladimir Goshev — Lead Cat Horde Handler<br/>
 Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
+Vladimir Smirnov — Lead Instagram Content Provider<br/>
 <br/>
 
 
