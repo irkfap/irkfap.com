@@ -38,6 +38,7 @@ Oleg Roschupkin — Lead Emergency Dick Pic Provider<br/>
 Vladimir Goshev — Lead Cat Horde Handler<br/>
 Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
 Vladimir Smirnov — Lead Instagram Content Provider<br/>
+Ilya Kobelkov — Lead Vehicle Condition Assessor<br/>
 <br/>
 
 
