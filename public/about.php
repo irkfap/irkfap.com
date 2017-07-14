@@ -23,8 +23,8 @@
 <h3>Our team:</h3>
 
 Alexander Batsuev — Team Lead Lead<br/>
-Sergeii Korobov — Lead Fortress Developer<br/>
-Maxim Perelygin — Lead Game Inventor<br/>
+Sergeii Korobov — Lead Fortress Remote Developer<br/>
+Maxim Perelygin — Lead Steampowered Publisher<br/>
 Stepan Legachev — Lead Nose Picker<br/>
 Sergay Kiselev — Lead Crybaby Engineer<br/>
 Vyacheslav Kovalyov — Lead Mini Cooper Driver<br/>
