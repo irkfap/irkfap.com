@@ -42,7 +42,7 @@ Ilya Kobelkov — Lead Vehicle Condition Assessor<br/>
 Ivan Voronkov — Lead WTF and WAT Content Generator<br/>
 Maxim Penzin — Lead Weather Forecast Provider<br/>
 Dmitrii Ionych Stepanov — Lead Senior Delphi Developer<br/>
-Kirill Fatin — Lead Craft &amp; Draft Beer Expert<br/>
+Kirill Fatin — Lead Craft &amp; Draft Beers Expert<br/>
 <br/>
 
 
