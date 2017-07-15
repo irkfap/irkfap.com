@@ -127,7 +127,7 @@ handlers:
   script: public/about.php
 
 # Main entry point
-- url: /.*
+- url: /
   script: public/index.php
 
 
