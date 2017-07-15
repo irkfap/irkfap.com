@@ -26,7 +26,7 @@ Alexander Batsuev — Team Lead Lead<br/>
 Sergeii Korobov — Lead Fortress Remote Developer<br/>
 Maxim Perelygin — Lead Steampowered Publisher<br/>
 Stepan Legachev — Lead Nose Picker<br/>
-Sergay Kiselev — Lead Crybaby Engineer<br/>
+Sergay Kiselev — Lead Whining Crybaby Engineer<br/>
 Vyacheslav Kovalyov — Lead Mini Cooper Driver<br/>
 Dmitrii Sizikov — Lead Bicycle &amp; Sledge Dog Driver<br/>
 Yulia Dubinina — Lead Wannabe Senior Java Developer<br/>
@@ -39,6 +39,7 @@ Vladimir Goshev — Lead Cat Horde Handler<br/>
 Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
 Vladimir Smirnov — Lead Instagram Content Provider<br/>
 Ilya Kobelkov — Lead Vehicle Condition Assessor<br/>
+Ivan Voronkov — Lead WTF and WAT Content Generator<br/>
 <br/>
 
 
