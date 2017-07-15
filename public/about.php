@@ -36,6 +36,7 @@ Alexander Kuzmin — Lead Fiction Writer<br/>
 Eugene Borman Elesin — Offshore Opposition Support Team Lead<br/>
 Oleg Roschupkin — Lead Emergency Dick Pic Provider<br/>
 Vladimir Goshev — Lead Cat Horde Handler<br/>
+Anton Baranov — Lead Dog Horde Handler<br/>
 Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
 Vladimir Smirnov — Lead Instagram Content Provider<br/>
 Ilya Kobelkov — Lead Vehicle Condition Assessor<br/>
@@ -43,7 +44,6 @@ Ivan Voronkov — Lead WTF and Wat Content Generator<br/>
 Maxim Penzin — Lead Weather Forecast Provider<br/>
 Dmitrii Ionych Stepanov — Lead Senior Delphi Developer<br/>
 Kirill Fatin — Lead Craft &amp; Draft Beers Expert<br/>
-Anton Baranov — Lead Dog Horde Handler<br/>
 <br/>
 
 
