@@ -40,6 +40,9 @@ Ivan Sidorov — Lead Nietzsche Interpreter &amp; Drug Expert<br/>
 Vladimir Smirnov — Lead Instagram Content Provider<br/>
 Ilya Kobelkov — Lead Vehicle Condition Assessor<br/>
 Ivan Voronkov — Lead WTF and WAT Content Generator<br/>
+Maxim Penzin — Lead Weather Forecast Provider<br/>
+Dmitrii Ionych Stepanov — Lead Senior Delphi Developer<br/>
+Kirill Fatin — Lead Craft &amp; Draft Beer Expert<br/>
 <br/>
 
 
