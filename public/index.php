@@ -43,6 +43,51 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <br/>
 
 
+When I will able to buy cheap GPU for my PC from bankrupt miners? Answer is right here!
+
+<!-- TradingView Widget BEGIN -->
+<div style="max-width: 550px; margin: 20px 0;">
+    <div id="tv-medium-widget-a789d"></div>
+</div>
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+    new TradingView.MediumWidget({
+        "container_id": "tv-medium-widget-a789d",
+        "symbols": [
+            [
+                "ETH",
+                "COINBASE:ETHUSD|3m"
+            ],
+            [
+                "BTC",
+                "COINBASE:BTCUSD|3m"
+            ]
+        ],
+        "gridLineColor": "#e9e9ea",
+        "fontColor": "#83888D",
+        "underLineColor": "#dbeffb",
+        "trendLineColor": "#4bafe9",
+        "width": "550px",
+        "height": "400px",
+        "locale": "en"
+    });
+</script>
+<!-- TradingView Widget END -->
+
+<!--
+<div class="btcwdgt-chart" bw-theme="light"></div>
+<script>
+    (function(b,i,t,C,O,I,N) {
+        window.addEventListener('load',function() {
+            if(b.getElementById(C))return;
+            I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+            I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+        },false)
+    })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
+-->
+
+
 <?php date_default_timezone_set('Europe/London'); ?>
 ©&nbsp;2009-<?php echo date('Y'); ?> <a href="/about">Irkfap community</a>
 
