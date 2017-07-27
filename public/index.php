@@ -46,7 +46,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 When I will able to buy cheap GPU for my PC from bankrupt miners? Answer is right here!
 
 <!-- TradingView Widget BEGIN -->
-<div style="max-width: 550px; margin: 20px 0;">
+<div style="max-width: 600px; margin: 20px 0;">
     <div id="tv-medium-widget-a789d"></div>
 </div>
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
@@ -67,9 +67,10 @@ When I will able to buy cheap GPU for my PC from bankrupt miners? Answer is righ
         "fontColor": "#83888D",
         "underLineColor": "#dbeffb",
         "trendLineColor": "#4bafe9",
-        "width": "550px",
-        "height": "400px",
-        "locale": "en"
+        "width": "600px",
+        "height": "330px",
+        "locale": "en",
+        "chartOnly": true
     });
 </script>
 <!-- TradingView Widget END -->
