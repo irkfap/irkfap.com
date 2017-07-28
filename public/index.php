@@ -43,7 +43,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <br/>
 
 
-When I will able to buy cheap GPU for my PC from bankrupt miners? Answer is right here!
+When will I be able to buy cheap GPU for my PC from bankrupt miners? Answer is right here!
 
 <!-- TradingView Widget BEGIN -->
 <div style="max-width: 600px; margin: 20px 0;">
