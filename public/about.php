@@ -44,6 +44,10 @@ Ivan Voronkov — Lead WTF and Wat Content Generator<br/>
 Maxim Penzin — Lead Weather Forecast Provider<br/>
 Dmitrii Ionych Stepanov — Lead Senior Delphi Developer<br/>
 Kirill Fatin — Lead Craft &amp; Draft Beers Expert<br/>
+Dmitrii Chumak — Lead Crowdsourced Translation Provider<br/>
+Dmitriii Lozhkin — Lead Horse Horde Handler<br/>
+Sergeii Zynx Petrov — Lead Fertility Provider<br/>
+Anton Chernousov — Lead Meetup Organiser<br/>
 <br/>
 
 
