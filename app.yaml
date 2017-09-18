@@ -124,10 +124,12 @@ handlers:
 
 
 - url: /about
+  secure: always
   script: public/about.php
 
 # Main entry point
 - url: /
+  secure: always
   script: public/index.php
 
 
