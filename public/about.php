@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <base href="http://irkfap.com/">
+    <base href="https://irkfap.com/">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

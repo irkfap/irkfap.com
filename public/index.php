@@ -33,11 +33,11 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <h1>We are expiriencing a MAJOR OUTAGE right now</h1>
 <h3>Sasha is <i>PISDANOOLSYA</i></h3>
 
-<img src="/keep-calm.jpg" width="368" height="552" alt="Keep calm and be a pandicorn" />
-<h3><sup>*</sup>and wait for the updates</h3>
+<h3>Keep calm and <s>be a pandicorn</s> wait for the updates</h3>
+
+<img src="breaking-news.jpg" width="640" height="360" alt="Breaking news: Sasha is pisdanoolsya" />
 
 <h3>Also the good news: our website now supports HTTP/2!</h3>
-<br>
 
 <?php date_default_timezone_set('Europe/London'); ?>
 ©&nbsp;2009-<?php echo date('Y'); ?> <a href="/about">Irkfap community</a>
