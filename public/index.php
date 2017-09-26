@@ -20,22 +20,23 @@
 <body role="document">
 
 Twitter: <a href="https://twitter.com/irkfap">@irkfap</a>
-<br/>
+<br>
 
 <?php
 $addresses  = ['invite', 'abuse', 'support', 'feedback', 'job', 'hr'];
 $address    = $addresses[array_rand($addresses)] . '@irkfap.com';
 ?>
 Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
-<br/>
+<br>
 
 
 <h1>We are expiriencing a MAJOR OUTAGE right now</h1>
-<h3>Sasha is <i>PIZDANOOLSYA</i></h3>
+<h3>Sasha is <i>PISDANOOLSYA</i></h3>
 <h1>Wait for the updates</h1>
 
-<h3>Also good news: our website now supports HTTP/2!</h3>
-
+<br>
+<h3>Also the good news: our website now supports HTTP/2!</h3>
+<br>
 
 <?php date_default_timezone_set('Europe/London'); ?>
 ©&nbsp;2009-<?php echo date('Y'); ?> <a href="/about">Irkfap community</a>
