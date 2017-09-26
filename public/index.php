@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <base href="http://irkfap.com/">
+    <base href="https://irkfap.com/">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,9 +32,10 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 
 <h1>We are expiriencing a MAJOR OUTAGE right now</h1>
 <h3>Sasha is <i>PISDANOOLSYA</i></h3>
-<h1>Wait for the updates</h1>
 
-<br>
+<img src="/keep-calm.jpg" width="368" height="552" alt="Keep calm and be a pandicorn" />
+<h3><sup>*</sup>and wait for the updates</h3>
+
 <h3>Also the good news: our website now supports HTTP/2!</h3>
 <br>
 
