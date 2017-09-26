@@ -48,6 +48,9 @@ Dmitrii Chumak — Lead Crowdsourced Translation Provider<br/>
 Dmitriii Lozhkin — Lead Horse Horde Handler<br/>
 Sergeii Zynx Petrov — Lead Fertility Provider<br/>
 Anton Chernousov — Lead Meetup Organiser<br/>
+Eugene Potapov — Lead DevOps Horde Handler<br/>
+Anton Malyshev — Lead Irish Ambassador<br/>
+Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced SysAdmin<br/>
 <br/>
 
 
