@@ -135,6 +135,10 @@ handlers:
   secure: always
   script: public/invite.php
 
+- url: /status
+  secure: always
+  script: public/status.php
+
 # Main entry point
 - url: /
   secure: always

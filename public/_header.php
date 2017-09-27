@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Irkfap community</title>
+<title><?php echo $t?:'Irkfap Community'; ?></title>
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
