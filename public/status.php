@@ -18,7 +18,7 @@
 <dl>
 
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
-    <dd>All units operational.</dd>
+    <dd>All units are operational.</dd>
 
     <dt>27.09.2017</dt>
     <dd>
@@ -37,6 +37,13 @@
 
         <h3>Also the good news: our website now supports HTTP/2!</h3>
     </dd>
+
+    <dt>17.04.2009</dt>
+    <dd>
+        <h1><a href="https://geektimes.ru/post/57508/">Irkfap 0.1 beta launched</a>!</h1>
+    </dd>
+
+    <dt></dt>
 
 </dl>
 
