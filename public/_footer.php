@@ -1,3 +1,4 @@
+<br>
 <?php date_default_timezone_set('Europe/London'); ?>
 ©&nbsp;2009-<?php echo date('Y'); ?> <a href="/about">Irkfap community</a>
 
