@@ -30,9 +30,9 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <br>
 
 <br>
-<a href="https://t.me/irkfap"><img src="good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!" /></a>
+<a href="/invite"><img src="good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!" /></a>
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 <h1>We are expiriencing a MAJOR OUTAGE right now</h1>
 <h3>Sasha is <i>PISDANOOLSYA</i></h3>

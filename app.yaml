@@ -127,6 +127,14 @@ handlers:
   secure: always
   script: public/about.php
 
+- url: /donate
+  secure: always
+  script: public/invite.php
+
+- url: /invite
+  secure: always
+  script: public/invite.php
+
 # Main entry point
 - url: /
   secure: always
