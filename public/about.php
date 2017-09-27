@@ -22,13 +22,13 @@
 
 <h3>Our team:</h3>
 
-Alexander Batsuev — Team Lead Lead<br/>
+Alexander Batsuev — Deposed Rebel Team Lead<br/>
 Sergeii Korobov — Lead Fortress Remote Developer<br/>
 Maxim Perelygin — Lead Steampowered Publisher<br/>
 Stepan Legachev — Lead Nose Picker<br/>
 Sergay Kiselev — Lead Whining Crybaby Engineer<br/>
-Vyacheslav Kovalyov — Lead Mini Cooper Driver<br/>
-Dmitrii Sizikov — Lead Bicycle &amp; Sledge Dog Driver<br/>
+Vyacheslav Kovalyov — Lead Wannabe Mini Cooper Driver<br/>
+Dmitrii Sizikov — Lead Bicycle Driver and Community Renovator<br/>
 Yulia Dubinina — Lead Wannabe Senior Java Developer<br/>
 Ilya Chernikov — Lead Connectivity Provider<br/>
 Anton Chaporgin — Lead Search Engine Insider<br/>
