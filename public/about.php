@@ -55,6 +55,6 @@ Lidia Mashechko — Lead Hand Made Expert<br>
 <br>
 
 
-<?php include_once './footer.php'; ?>
+<?php include_once './_footer.php'; ?>
 </body>
 </html>
