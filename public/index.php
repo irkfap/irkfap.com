@@ -20,6 +20,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 
 <br>
 <a href="/invite"><img src="/img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!" /></a>
+<br>
 
 <?php include_once './_footer.php'; ?>
 </body>
