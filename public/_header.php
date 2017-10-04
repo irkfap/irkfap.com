@@ -1,4 +1,7 @@
+<?php if ( array_key_exists('CURRENT_VERSION_ID', $_SERVER)
+            && 0 === strpos($_SERVER['CURRENT_VERSION_ID'], 'prod') ): ?>
 <base href="https://irkfap.com/">
+<?php endif; ?>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
