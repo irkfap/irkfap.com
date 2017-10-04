@@ -54,7 +54,7 @@
     <dd>
         <h1>Irkfap 2.5 released</h1>
         <h3>Telegram channel created</h3>
-        <h3>Skype channel started to became obsolete</h3>
+        <h3>Skype channel started to become obsolete</h3>
     </dd>
 
 
