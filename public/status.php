@@ -44,7 +44,7 @@
     <dt>26.04.2015</dt>
     <dd>
         <h1>6th Anniversary</h1>
-        <h3>Annual community meet-up in Passatte Luxury Resort</h3>
+        <h3>Annual community meeting has taken place in Passatte Luxury Resort</h3>
         <p><img src="./img/irkfap-2015.jpg" width="640" height="512" alt="6th Anniversary"></p>
 
     </dd>
@@ -52,9 +52,8 @@
 
     <dt>13.03.2015</dt>
     <dd>
-        <h1>Irkfap 2.5 released</h1>
-        <h3>Telegram channel created</h3>
-        <h3>Skype channel started to become obsolete</h3>
+        <h1>Irkfap 2.5 released under TeleFork working title</h1>
+        <h3>Board has taken decision to sell all Skype shares and invest in Telegram growth instead</h3>
     </dd>
 
 
