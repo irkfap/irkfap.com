@@ -23,7 +23,7 @@
     <dt>27.09.2017</dt>
     <dd>
         <h1>All hail Irkfap 3.0!</h1>
-        <a href="/invite"><img src="./img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!" /></a>
+        <a href="/invite"><img src="./img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!"></a>
     </dd>
 
     <dt>26.09.2017</dt>
@@ -33,7 +33,7 @@
 
         <h3><a href="./img/keep-calm.jpg">Keep calm</a> and <s>be a pandicorn</s> wait for the updates</h3>
 
-        <img src="./img/breaking-news.jpg" width="640" height="360" alt="Breaking news: Sasha is pisdanoolsya" />
+        <img src="./img/breaking-news.jpg" width="640" height="360" alt="Breaking news: Sasha is pisdanoolsya">
 
         <h3>Also the good news: our website now supports HTTP/2!</h3>
     </dd>
