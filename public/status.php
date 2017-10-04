@@ -20,11 +20,13 @@
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
     <dd>All units are operational.</dd>
 
+
     <dt>27.09.2017</dt>
     <dd>
         <h1>All hail Irkfap 3.0!</h1>
         <a href="/invite"><img src="./img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!"></a>
     </dd>
+
 
     <dt>26.09.2017</dt>
     <dd>
@@ -37,6 +39,24 @@
 
         <h3>Also the good news: our website now supports HTTP/2!</h3>
     </dd>
+
+
+    <dt>26.04.2015</dt>
+    <dd>
+        <h1>6th Anniversary</h1>
+        <h3>Annual community meet-up in Passatte Luxury Resort</h3>
+        <p><img src="./img/irkfap-2015.jpg" width="640" height="512" alt="6th Anniversary"></p>
+
+    </dd>
+
+
+    <dt>13.03.2015</dt>
+    <dd>
+        <h1>Irkfap 2.5 released</h1>
+        <h3>Telegram channel created</h3>
+        <h3>Skype channel started to became obsolete</h3>
+    </dd>
+
 
     <dt>17.04.2009</dt>
     <dd>
