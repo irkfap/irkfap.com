@@ -53,7 +53,7 @@
     <dt>13.03.2015</dt>
     <dd>
         <h1>Irkfap 2.5 released under TeleFork working title</h1>
-        <h3>Board has taken decision to sell all Skype shares and invest in Telegram growth instead</h3>
+        <h3>The board has taken decision to sell all Skype shares and invest in Telegram growth instead</h3>
     </dd>
 
 
