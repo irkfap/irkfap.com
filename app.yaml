@@ -139,6 +139,10 @@ handlers:
   secure: always
   script: public/status.php
 
+- url: /getip
+  script: public/getip.php
+
+
 # Main entry point
 - url: /
   secure: always
