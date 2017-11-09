@@ -29,7 +29,7 @@
         <p><img src="./img/cdtt38.ru.jpg" width="640" height="480" alt="Julia Sergeeva and students of cdtt38.ru"></p>
         <p>Special thanks to:
             Sergeii Korobov, Anton Malyshev, Anton Chaporgin, Vladimir Goshev,
-            Alexander Scheglov, Konstantin Melnikov, Stepan Legachev, Alexei Konoplev,
+            Alexander Scheglov, Konstantin Melnikov, Stepan Legachev, Alexeii Konoplev,
             Alexander Malikov, Maxim Perelygin, Eugene Potapov, Maxim Penzin,
             Vyacheslav Kovalyov and Vladimir Martyushov.
         </p>
