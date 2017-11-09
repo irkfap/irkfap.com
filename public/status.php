@@ -18,7 +18,9 @@
 <dl>
 
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
-    <dd><p>All units are operational.</p></dd>
+    <dd>
+        <p>All units are operational.</p>
+    </dd>
 
 
     <dt>08.11.2017</dt>
@@ -32,6 +34,7 @@
             Vyacheslav Kovalyov and Vladimir Martyushov.
         </p>
     </dd>
+
 
     <dt>27.09.2017</dt>
     <dd>
