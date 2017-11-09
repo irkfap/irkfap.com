@@ -38,6 +38,7 @@ Eugene Potapov — Lead DevOps Horde Handler<br>
 Anton Malyshev — Lead Irish Ambassador<br>
 Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced SysAdmin<br>
 Lidia Mashechko — Lead Hand Made Expert<br>
+Julia Sergeeva — Lead Junior Robotics Expert<br>
 <br>
 
 
