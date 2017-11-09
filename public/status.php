@@ -25,7 +25,7 @@
 
     <dt>08.11.2017</dt>
     <dd>
-        <p>Successfully finished crowdfunding for <a href="https://vk.com/cdttrob" rel="nofollow">Robotics department</a> of the <a href="http://cdtt38.ru/" rel="nofollow">Irkutsk junior school</a>.</p>
+        <h3>Successfully finished crowdfunding for <a href="https://vk.com/cdttrob" rel="nofollow">Robotics department</a> of the <a href="http://cdtt38.ru/" rel="nofollow">Irkutsk junior school</a></h3>
         <p><img src="./img/cdtt38.ru.jpg" width="640" height="480" alt="Julia Sergeeva and students of cdtt38.ru"></p>
         <p>Special thanks to:
             Sergeii Korobov, Anton Malyshev, Anton Chaporgin, Vladimir Goshev,
