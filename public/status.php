@@ -39,7 +39,7 @@
     <dt>27.09.2017</dt>
     <dd>
         <h1>All hail Irkfap 3.0!</h1>
-        <h3>Good news, everyone! <a href="/invite">We are back</a>!</h3>
+        <h3>Good news, everyone! We are back!</h3>
         <p><img src="./img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!"></p>
     </dd>
 
