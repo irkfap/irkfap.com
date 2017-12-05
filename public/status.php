@@ -25,6 +25,14 @@
 
     <dt>08.11.2017</dt>
     <dd>
+        <h1><a href="https://twitter.com/irkfap">@irkfap</a></h1>
+        <h3>Twitter account successfully restored</h3>
+        <p>Also the minor news: <abbr>batsuev.com</abbr> is now owned by irkmag</p>
+    </dd>
+
+
+    <dt>08.11.2017</dt>
+    <dd>
         <h3>Successfully finished crowdfunding for <a href="https://vk.com/cdttrob" rel="nofollow">Robotics department</a> of the <a href="http://cdtt38.ru/" rel="nofollow">Irkutsk junior school</a></h3>
         <p><img src="./img/cdtt38.ru.jpg" width="640" height="480" alt="Julia Sergeeva and students of cdtt38.ru"></p>
         <p>Special thanks to:
@@ -70,6 +78,14 @@
     <dd>
         <h1>Irkfap 2.5 is released under TeleFork working title</h1>
         <h3>The board has taken decision to sell all Skype shares and invest in Telegram growth instead</h3>
+    </dd>
+
+
+    <dt>23.04.2012</dt>
+    <dd>
+        <h1>3rd Anniversary</h1>
+        <h1><a href="https://twitter.com/irkfap">@irkfap</a></h1>
+        <h3>↑ And we have a twitter now ↑</h3>
     </dd>
 
 
