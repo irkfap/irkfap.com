@@ -26,7 +26,7 @@
     <dt>05.12.2017</dt>
     <dd>
         <h1><a href="https://twitter.com/irkfap">@irkfap</a></h1>
-        <h3>Twitter account successfully restored</h3>
+        <h3>Twitter account is successfully restored</h3>
         <p>Also the minor news: <abbr>batsuev.com</abbr> is now owned by irkmag</p>
     </dd>
 
