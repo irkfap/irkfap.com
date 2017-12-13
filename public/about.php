@@ -13,7 +13,7 @@ Sergeii Korobov — Lead Fortress Remote Developer<br>
 Maxim Perelygin — Lead Steampowered Publisher<br>
 Stepan Legachev — Lead Nose Picker<br>
 Sergay Kiselev — Lead Whining Crybaby Engineer<br>
-Vyacheslav Kovalyov — Lead Wannabe Mini Cooper Driver<br>
+Vyacheslav Kovalyov — Lead Mini Cooper Driver<br>
 Dmitrii Sizikov — Lead Bicycle Driver and Community Renovator<br>
 Yulia Dubinina — Lead Wannabe Senior Java Developer<br>
 Ilya Chernikov — Lead Connectivity Provider<br>
