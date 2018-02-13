@@ -7,9 +7,7 @@
 
 
 <h3>Our team:</h3>
-
-Alexander Batsuev — Deposed Rebel Team Lead<br>
-Sergeii Korobov — Lead Fortress Remote Developer<br>
+Sergeii Korobov — Unser Lieben Führer<br>
 Maxim Perelygin — Lead Steampowered Publisher<br>
 Stepan Legachev — Lead Nose Picker<br>
 Sergay Kiselev — Lead Whining Crybaby Brigadier<br>
@@ -39,6 +37,7 @@ Anton Malyshev — Lead Irish Ambassador<br>
 Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced SysAdmin<br>
 Lidia Mashechko — Lead Hand Made Expert<br>
 Julia Sergeeva — Lead Junior Robotics Expert<br>
+Alexander Batsuev — Deposed Rebel Team Lead<br>
 <br>
 
 
