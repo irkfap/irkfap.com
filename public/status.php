@@ -23,6 +23,12 @@
     </dd>
 
 
+    <dt>28.02.2018</dt>
+    <dd>
+        <h3>Some users may experience minor disruption due to heavy GIF bombing</h3>
+    </dd>
+
+
     <dt>05.12.2017</dt>
     <dd>
         <h1><a href="https://twitter.com/irkfap">@irkfap</a></h1>
