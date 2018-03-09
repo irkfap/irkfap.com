@@ -30,7 +30,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 </pre>
 <br/>
 
-<p>How deep you should regret about not buying Bitcoin half a year ago? Answer is right here!</p>
+<p>How deep you should regret about not selling Bitcoin half a year ago? Answer is right here!</p>
 
 <!-- TradingView Widget BEGIN
 <div style="max-width: 600px; margin: 20px 0;">

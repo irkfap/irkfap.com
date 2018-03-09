@@ -38,6 +38,7 @@ Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced SysAdmin<br>
 Lidia Mashechko — Lead Hand Made Expert<br>
 Julia Sergeeva — Lead Junior Robotics Expert<br>
 Margarita Kvaapagarrot — Lead Polską Państwo Ambassador<br>
+Ivan Ivanov — Lead White Hat Exploiter<br>
 Alexander Batsuev — Deposed Rebel Team Lead<br>
 <br>
 
