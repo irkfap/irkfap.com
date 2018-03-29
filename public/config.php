@@ -3,9 +3,9 @@
 define('UNIQ_ID', 'abcdefABCDEF'[mt_rand(0, 11)].dechex(crc32(uniqid('', true))));
 $uniqId = UNIQ_ID;
 
-define('CHECK1', 'Kt0QFN3uS41');
-define('CHECK2', 'AmQwRkOcXI7');
-define('CHECK3', 'aYgCk4UnVlQ');
+define('CHECK1', 'Kt0QFN3uS41'); // don’t touch this please
+define('CHECK2', 'AmQwRkOcXI7'); // chat key, first part
+define('CHECK3', 'aYgCk4UnVlQ'); // chat key, second part
 
 define('CHAN_ID', 'awesibli');
 
