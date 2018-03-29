@@ -1,8 +1,8 @@
-<!doctype html>
+<?php session_name('INVITEID'); session_start(); ?><!doctype html>
 <html lang="en">
 <head>
 <?php $t='Irkfap Community Invitation'; include_once './_header.php'; ?>
-<script src="/invite/<?php echo $uniqId; ?>.js"></script>
+<script src="/invite/<?php $_SESSION['invite_id'] = $uniqId; echo dechex(crc32(uniqid('', true))); ?>.js"></script>
 </head>
 <body role="document">
 
