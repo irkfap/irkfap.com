@@ -6,18 +6,16 @@
 <body role="document">
 
 <dl>
-<!--
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
     <dd>
         <p>All units are operational.</p>
     </dd>
--->
 
 
     <dt>29.03.2018 11:27 GMT</dt>
     <dd>
         <h1 class="green">PANIC MODE OFF</h1>
-        <h3>Telegram is back. Kind of</h3>
+        <h3>Telegram is back and great again</h3>
     </dd>
 
 
