@@ -14,5 +14,3 @@
     ga('send', 'pageview');
 </script>
 <?php endif; ?>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

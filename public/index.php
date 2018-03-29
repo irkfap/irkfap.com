@@ -36,6 +36,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <h3>Telegram is back</h3>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Power outage at a <a href="https://twitter.com/telegram?ref_src=twsrc%5Etfw">@telegram</a> server cluster causing issues in Europe. Working to fix it from our side, but a lot depends on when the datacenter provider puts the power equipment in order.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/979284965178400769?ref_src=twsrc%5Etfw">March 29, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br>
 
 

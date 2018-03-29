@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php $t='Irkfap Community Invitation'; include_once './_header.php'; ?>
-<script><?php printf("var %s='%s';",$uniqId,fa16e3ac); ?></script>
+<script src="/invite/<?php echo $uniqId; ?>.js"></script>
 </head>
 <body role="document">
 

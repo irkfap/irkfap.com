@@ -110,5 +110,6 @@
 </dl>
 
 <?php include_once './_footer.php'; ?>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
