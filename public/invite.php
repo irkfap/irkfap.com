@@ -1,8 +1,12 @@
 <?php session_name('INVITEID'); session_start(); ?><!doctype html>
 <html lang="en">
 <head>
-<?php $t='Irkfap Community Invitation'; include_once './_header.php'; ?>
-<script src="/invite/<?php $_SESSION['invite_id'] = $uniqId; echo dechex(crc32(uniqid('', true))); ?>.js"></script>
+<?php $t='Irkfap Community Invitation'; include_once './_header.php';
+$fileId = substr(base64_encode(md5(uniqid('', true))), mt_rand(0, 34), 9);
+$_SESSION['invite_id']  = $uniqId;
+$_SESSION['file_id']    = $fileId;
+?>
+<script src="/invite/<?php echo $fileId ?>.js"></script>
 </head>
 <body role="document">
 
