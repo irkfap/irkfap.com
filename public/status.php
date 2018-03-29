@@ -14,23 +14,37 @@
     .red {
         color: #d00000;
     }
+    .green {
+        color: #008500;
+    }
 </style>
 </head>
 <body role="document">
 
 <dl>
-
+<!--
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
     <dd>
         <p>All units are operational.</p>
     </dd>
+-->
+
+
+<!--
+    <dt>29.03.2018 10:57 GMT</dt>
+    <dd>
+        <h1 class="green">PANIC MODE OFF</h1>
+        <h3>Telegram is back</h3>
+    </dd>
+-->
 
 
     <dt>29.03.2018 08:12 GMT</dt>
     <dd>
         <h1 class="red">PANIC MODE ON</h1>
-        <h1 class="red">TELEGRAM IS DOWN</h1>
+        <h3>TELEGRAM IS DOWN</h3>
         <p><img src="img/telegram-down.jpg" width="406" height="209" alt="Telegram is DOWN"></p>
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Power outage at a <a href="https://twitter.com/telegram?ref_src=twsrc%5Etfw">@telegram</a> server cluster causing issues in Europe. Working to fix it from our side, but a lot depends on when the datacenter provider puts the power equipment in order.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/979284965178400769?ref_src=twsrc%5Etfw">March 29, 2018</a></blockquote>
     </dd>
 
 
@@ -43,8 +57,8 @@
     <dt>05.12.2017</dt>
     <dd>
         <h1><a href="https://twitter.com/irkfap">@irkfap</a></h1>
-        <h3>Twitter account is successfully restored</h3>
-        <p>Also the minor news: <abbr>batsuev.com</abbr> is now owned by irkmag</p>
+        <h3>Yay! Twitter account is successfully restored!</h3>
+        <h3>Also the minor news: <a href="http://batsuev.com" rel="nofollow">batsuev.com</a> is now owned by @irkmag<h3>
     </dd>
 
 
@@ -71,21 +85,21 @@
 
     <dt>26.09.2017</dt>
     <dd>
-        <h1>We are expiriencing a MAJOR OUTAGE right now</h1>
+        <h1>We are expiriencing a <span class="red">MAJOR OUTAGE</span> right now</h1>
         <h3>Sasha has been <i>PISDANOOLSYA</i></h3>
 
         <h3><a href="./img/keep-calm.jpg">Keep calm</a> and <s>be a pandicorn</s> wait for the updates</h3>
 
         <p><img src="./img/breaking-news.jpg" width="640" height="360" alt="Breaking news: Sasha is pisdanoolsya"></p>
 
-        <h3>Also the good news: our website now supports HTTP/2!</h3>
+        <h3>Also the good news: <a href="https://irkfap.com">our website</a> now supports HTTP/2!</h3>
     </dd>
 
 
     <dt>26.04.2015</dt>
     <dd>
         <h1>6th Anniversary</h1>
-        <h3>Annual community meeting has taken place in Passatte Luxury Resort</h3>
+        <h3>Annual community meeting has taken place in the Passatte Luxury Resort</h3>
         <p><img src="./img/irkfap-2015.jpg" width="640" height="512" alt="6th Anniversary"></p>
 
     </dd>

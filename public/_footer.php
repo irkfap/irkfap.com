@@ -11,3 +11,5 @@
     ga('create', 'UA-101894856-1', 'auto');
     ga('send', 'pageview');
 </script>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
