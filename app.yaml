@@ -1,6 +1,8 @@
-
+# Deploy:
 # gcloud app deploy app.yaml --project irkfap-com -v prod-1 --quiet
 
+# Run locally:
+# dev_appserver.py app.yaml
 
 runtime: php55
 api_version: 1
@@ -107,13 +109,6 @@ handlers:
   http_headers:
     Access-Control-Allow-Origin: "*"
 
-# Other static files
-- url: /(.*\.(html|css|js|map|png|jpg|gif))$
-  static_files: public/\1
-  upload: public/.*\.(html|css|js|map|png|jpg|gif)$
-  http_headers:
-    Access-Control-Allow-Origin: "*"
-
 
 # Let's Encrypt (ACME http-01 challenge)
 - url: /.well-known/acme-challenge/(.*)$
@@ -123,30 +118,47 @@ handlers:
   secure: never
 
 
-- url: /about
+# Dynamic entry points
+- url: /about/?
   secure: always
   script: public/about.php
 
-- url: /donate
+- url: /donate/?
   secure: always
   script: public/invite.php
 
-- url: /invite
+- url: /invite/(.*\.js)$
+  secure: always
+  script: public/invite.js.php
+
+- url: /invite/?
   secure: always
   script: public/invite.php
 
-- url: /status
+- url: /status/?
   secure: always
   script: public/status.php
 
-- url: /getip
+- url: /getip/?
   script: public/getip.php
+
+
+# Other static files
+- url: /(.*\.(html|css|js|map|png|jpg|gif))$
+  static_files: public/\1
+  upload: public/.*\.(html|css|js|map|png|jpg|gif)$
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 
 # Main entry point
 - url: /
   secure: always
   script: public/index.php
+
+- url: /_ah/warmup
+  script: warmup.php
+  login: admin
 
 
 skip_files:
