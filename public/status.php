@@ -11,6 +11,9 @@
         display: block;
         margin-left: 50px;
     }
+    .red {
+        color: #d00000;
+    }
 </style>
 </head>
 <body role="document">
@@ -20,6 +23,14 @@
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
     <dd>
         <p>All units are operational.</p>
+    </dd>
+
+
+    <dt>29.03.2018 08:12 GMT</dt>
+    <dd>
+        <h1 class="red">PANIC MODE ON</h1>
+        <h1 class="red">TELEGRAM IS DOWN</h1>
+        <p><img src="img/telegram-down.jpg" alt="Telegram is DOWN" /></p>
     </dd>
 
 

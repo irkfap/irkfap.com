@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 <?php $t='Irkfap Community 3.0'; include_once './_header.php'; ?>
+
+<style>
+    .red {
+        color: #d00000;
+    }
+</style>
 </head>
 <body role="document">
 
@@ -17,6 +23,11 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 
 → <a href="/status">Current Status</a>
 <br>
+
+
+<h1 class="red">PANIC MODE ON</h1>
+<h1 class="red">TELEGRAM IS DOWN</h1>
+<p><img src="img/telegram-down.jpg" alt="Telegram is DOWN" /></p>
 
 <pre>
  ____________
