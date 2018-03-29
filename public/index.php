@@ -2,15 +2,6 @@
 <html lang="en">
 <head>
 <?php $t='Irkfap Community 3.0'; include_once './_header.php'; ?>
-
-<style>
-    .red {
-        color: #d00000;
-    }
-    .green {
-        color: #009e00;
-    }
-</style>
 </head>
 <body role="document">
 

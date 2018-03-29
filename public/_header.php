@@ -15,4 +15,21 @@
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
 <link type="text/plain" rel="author" href="/humans.txt">
+
+<style>
+    dt {
+        margin-top: 50px;
+    }
+    dd {
+        display: block;
+        margin-left: 50px;
+    }
+    .red {
+        color: #d00000;
+    }
+    .green {
+        color: #008500;
+    }
+</style>
+
 <?php define(dechex(crc32(CHECK1)), CHECK2.CHECK3); ?>
