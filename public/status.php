@@ -2,22 +2,6 @@
 <html lang="en">
 <head>
 <?php $t='Irkfap Community Status'; include_once './_header.php'; ?>
-
-<style>
-    dt {
-        margin-top: 50px;
-    }
-    dd {
-        display: block;
-        margin-left: 50px;
-    }
-    .red {
-        color: #d00000;
-    }
-    .green {
-        color: #008500;
-    }
-</style>
 </head>
 <body role="document">
 
@@ -30,13 +14,11 @@
 -->
 
 
-<!--
-    <dt>29.03.2018 10:57 GMT</dt>
+    <dt>29.03.2018 11:27 GMT</dt>
     <dd>
         <h1 class="green">PANIC MODE OFF</h1>
-        <h3>Telegram is back</h3>
+        <h3>Telegram is back. Kind of</h3>
     </dd>
--->
 
 
     <dt>29.03.2018 08:12 GMT</dt>
