@@ -27,7 +27,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 
 <h1 class="red">PANIC MODE ON</h1>
 <h1 class="red">TELEGRAM IS DOWN</h1>
-<p><img src="img/telegram-down.jpg" alt="Telegram is DOWN" /></p>
+<p><img src="img/telegram-down.jpg" width="406" height="209" alt="Telegram is DOWN"></p>
 
 <pre>
  ____________
