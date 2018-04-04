@@ -121,23 +121,23 @@ handlers:
 # Dynamic entry points
 - url: /about/?
   secure: always
-  script: public/about.php
+  script: src/about.php
 
 - url: /donate/?
   secure: always
-  script: public/invite.php
+  script: src/invite.php
 
 - url: /invite/(.*\.js)$
   secure: always
-  script: public/invite.js.php
+  script: src/invite.js.php
 
 - url: /invite/?
   secure: always
-  script: public/invite.php
+  script: src/invite.php
 
 - url: /status/?
   secure: always
-  script: public/status.php
+  script: src/status.php
 
 - url: /getip/?
   script: src/getip.php
@@ -154,10 +154,10 @@ handlers:
 # Main entry point
 - url: /
   secure: always
-  script: public/index.php
+  script: src/index.php
 
 - url: /_ah/warmup
-  script: warmup.php
+  script: src/warmup.php
   login: admin
 
 
