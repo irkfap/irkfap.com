@@ -140,7 +140,7 @@ handlers:
   script: public/status.php
 
 - url: /getip/?
-  script: public/getip.php
+  script: src/getip.php
 
 
 # Other static files
