@@ -1,0 +1,145 @@
+
+handlers:
+
+# Static handlers: MIME types
+- url: /(.*\.ico)$
+  mime_type: image/x-icon
+  static_files: public/\1
+  upload: public/(.*\.ico)$
+  expiration: "7d"
+
+# Web fonts
+- url: /(.*\.eot)$
+  mime_type: application/vnd.ms-fontobject
+  static_files: public/\1
+  upload: public/(.*\.eot)$
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+
+- url: /(.*\.ttf)$
+  mime_type: application/x-font-ttf
+  static_files: public/\1
+  upload: public/(.*\.ttf)$
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+
+- url: /(.*\.woff)$
+  mime_type: application/font-woff
+  static_files: public/\1
+  upload: public/(.*\.woff)$
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+
+# Additional mime types
+- url: /(.*\.less)$
+  mime_type: text/css
+  static_files: public/\1
+  upload: public/(.*\.less)$
+
+- url: /(.*\.md)$
+  mime_type: text/markdown
+  static_files: public/\1
+  upload: public/(.*\.md)$
+
+- url: /(.*\.(gz|gzip))$
+  mime_type: application/gzip
+  static_files: public/\1
+  upload: public/(.*\.(gz|gzip))$
+
+- url: /(.*\.map)$
+  mime_type: application/json
+  static_files: public/\1
+  upload: public/(.*\.map)$
+
+- url: /(.*(LICENSE|LICENSE\-.*))$
+  mime_type: text/plain
+  static_files: public/\1
+  upload: public/(.*(LICENSE|LICENSE\-.*))$
+
+- url: /(.*\.nuspec)$
+  mime_type: text/xml
+  static_files: public/\1
+  upload: public/(.*\.nuspec)$
+
+- url: /(.*\.(yml|yaml))$
+  mime_type: text/yaml
+  static_files: public/\1
+  upload: public/(.*\.(yml|yaml))$
+
+# Static handlers
+#- url: /favicon\.ico
+#  static_files: public/favicon.ico
+#  upload: public/favicon\.ico
+
+- url: /robots\.txt
+  static_files: public/robots.txt
+  upload: public/robots\.txt
+
+- url: /humans\.txt
+  static_files: public/humans.txt
+  upload: public/humans\.txt
+
+- url: /crossdomain\.xml
+  static_files: public/crossdomain.xml
+  upload: public/crossdomain\.xml
+
+- url: /bower_components
+  static_dir: public/bower_components
+
+- url: /fontello
+  static_dir: public/fontello
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+
+
+# Let's Encrypt (ACME http-01 challenge)
+- url: /.well-known/acme-challenge/(.*)$
+  mime_type: text/plain
+  static_files: ACME/acme-challenge/\1
+  upload: ACME/acme-challenge/(.*)$
+  secure: never
+
+
+# Dynamic entry points
+- url: /about/?
+  secure: always
+  script: src/about.php
+
+- url: /donate/?
+  secure: always
+  script: src/invite.php
+
+- url: /invite/(.*\.js)$
+  secure: always
+  script: src/invite.js.php
+
+- url: /invite/?
+  secure: always
+  script: src/invite.php
+
+- url: /status/?
+  secure: always
+  script: src/status.php
+
+- url: /getip/?
+  script: src/getip.php
+
+
+# Other static files
+- url: /(.*\.(html|css|js|map|png|jpg|gif))$
+  static_files: public/\1
+  upload: public/.*\.(html|css|js|map|png|jpg|gif)$
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+
+
+# Warm-up handler
+- url: /_ah/warmup
+  script: src/warmup.php
+  login: admin
+
+
+# Main entry point
+- url: /
+  secure: always
+  script: src/index.php
