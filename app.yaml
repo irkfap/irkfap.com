@@ -1,25 +1,16 @@
-# Deploy:
-# gcloud app deploy app.yaml --project irkfap-com -v prod-1 --quiet
-
-# Run locally:
-# dev_appserver.py app.yaml
-
 runtime: php55
 api_version: 1
 threadsafe: yes
-
 
 # https://cloud.google.com/appengine/docs/php/config/appconfig#PHP_Warmup_requests
 inbound_services:
 - warmup
 
-
 default_expiration: "30d"
 
-
 includes:
+- config.yaml
 - routes.yaml
-
 
 skip_files:
 - ^(.*/)?#.*#$
