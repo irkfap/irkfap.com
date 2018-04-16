@@ -12,6 +12,13 @@
     </dd>
 
 
+    <dt>16.04.2018</dt>
+    <dd>
+        <h1 class="red">We are experiencing minor outage in Russia</h1>
+        <h3>Just send your LinkedIn profile to <a href="https://t.me/vitroot" rel="nofollow">@vitroot</a> to get fresh proxy</h3>
+    </dd>
+
+
     <dt>29.03.2018 11:27 GMT</dt>
     <dd>
         <h1 class="green">PANIC MODE OFF</h1>

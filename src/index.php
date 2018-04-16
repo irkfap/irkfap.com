@@ -32,8 +32,10 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <br>
 
 
-<h1 class="green">We are experiencing minor outage in Russia</h1>
+<h1 class="red">We are experiencing minor outage in Russia</h1>
 <h3>Just send your LinkedIn profile to <a href="https://t.me/vitroot" rel="nofollow">@vitroot</a> to get fresh proxy</h3>
+
+<br><br>
 
 <p>How deep you should regret about not selling Bitcoin half a year ago? Answer is right here!</p>
 
