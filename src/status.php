@@ -72,7 +72,7 @@
 
     <dt>26.09.2017</dt>
     <dd>
-        <h1>We are expiriencing a <span class="red">MAJOR OUTAGE</span> right now</h1>
+        <h1>We are experiencing a <span class="red">MAJOR OUTAGE</span> right now</h1>
         <h3>Sasha has been <i>PISDANOOLSYA</i></h3>
 
         <h3><a href="./img/keep-calm.jpg">Keep calm</a> and <s>be a pandicorn</s> wait for the updates</h3>
