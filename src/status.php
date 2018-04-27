@@ -25,8 +25,10 @@
         <h3>Successfully finished crowdfunding campaign for <a href="http://alisa.aleus.ru/?page_id=182" rel="nofollow">Alisa Computer School</a> Annual Conference for young programmers</h3>
         <p>Special thanks to:
             Sergeii Korobov, Alexeii Konoplev, Dmitrii Sizikov,
-            Vitaly Ivaschenko, Ivan Ivanov, Eugene Potapov,
-            Stepan Legachev, Vladimir Kuzmin... and looks like I missed someone :-(
+            Ivan Ivanov, Eugene Potapov, Alexander Scheglov,
+            Ivan Sidorov, Stepan Legachev, Gleb Kolobkov,
+            Anton Malyshev, Anton Chaporgin, Oleg Pazdnikov
+            and Vladimir Kuzmin.
         </p>
     </dd>
 
