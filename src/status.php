@@ -73,7 +73,7 @@
     <dd>
         <h1><a href="https://twitter.com/irkfap">@irkfap</a></h1>
         <h3>Yay! Twitter account is successfully restored!</h3>
-        <h3>Also the minor news: <a href="http://batsuev.com" rel="nofollow">batsuev.com</a> is now owned by @irkmag<h3>
+        <h3>Also the minor news: batsuev.com is now owned by @irkmag<h3>
     </dd>
 
 
