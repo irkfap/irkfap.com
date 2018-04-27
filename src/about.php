@@ -34,12 +34,18 @@ Sergeii Zynx Petrov — Lead Fertility Provider<br>
 Anton Chernousov — Lead Meetup Organiser<br>
 Eugene Potapov — Lead DevOps Horde Handler<br>
 Anton Malyshev — Lead Irish Ambassador<br>
-Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced SysAdmin<br>
+Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced DevOps<br>
 Lidia Mashechko — Lead Hand Made Expert<br>
 Julia Sergeeva — Lead Junior Robotics Expert<br>
 Margarita Kvaapagarrot — Lead Polską Państwo Ambassador<br>
 Ivan Ivanov — Lead White Hat Exploiter<br>
 Alexander Batsuev — Deposed Rebel Team Lead<br>
+Alexander Delphist Scheglov — Lead Street Racer on Rails<br>
+Anatoly Naydenov — Lead Social Opinion Statistics Provider<br>
+Gleb Kolobkov — Lead Southern C++ Developer<br>
+<br>
+<br>
+<br>
 <br>
 
 
