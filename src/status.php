@@ -107,9 +107,9 @@
     </dd>
 
 
-    <dt>17.04.2009</dt>
+    <dt>26.04.2009</dt>
     <dd>
-        <h1><a href="https://geektimes.ru/post/57508/" rel="nofollow">Irkfap 0.1 beta launched</a>!</h1>
+        <h1><a href="https://geektimes.com/post/57508/" rel="nofollow">Irkfap 1.0 launched</a>!</h1>
     </dd>
 
     <dt></dt>
