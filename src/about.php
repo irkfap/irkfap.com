@@ -44,10 +44,6 @@ Alexander Delphist Scheglov — Lead Street Racer on Rails<br>
 Anatoly Naydenov — Lead Social Opinion Statistics Provider<br>
 Gleb Kolobkov — Lead Southern C++ Developer<br>
 <br>
-<br>
-<br>
-<br>
-
 
 
 <?php include_once './_footer.php'; ?>
