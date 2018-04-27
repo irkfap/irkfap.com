@@ -63,14 +63,6 @@
     </dd>
 
 
-
-    <dt>20.03.2018</dt>
-    <dd>
-        <h3>Internal Election results are published</h3>
-    </dd>
-
-
-
     <dt>28.02.2018</dt>
     <dd>
         <h3>Some users may experience minor disruption due to heavy GIF bombing</h3>
