@@ -26,9 +26,9 @@
         <p>Special thanks to:
             Sergeii Korobov, Alexeii Konoplev, Dmitrii Sizikov,
             Ivan Ivanov, Eugene Potapov, Alexander Scheglov,
-            Ivan Sidorov, Stepan Legachev, Gleb Kolobkov,
-            Anton Malyshev, Anton Chaporgin, Oleg Pazdnikov
-            and Vladimir Kuzmin.
+            Vitaly Ivaschenko, Ivan Sidorov, Stepan Legachev,
+            Gleb Kolobkov, Anton Malyshev, Anton Chaporgin,
+            Oleg Pazdnikov and Vladimir Kuzmin.
         </p>
     </dd>
 
