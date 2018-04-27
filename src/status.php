@@ -12,6 +12,25 @@
     </dd>
 
 
+
+    <dt>26.04.2018</dt>
+    <dd>
+        <h1>Yay! 9th Anniversary!</h1>
+        <p>Feels more like “Zero fucks given”.</p>
+    <dd>
+
+
+    <dt>24.04.2018</dt>
+    <dd>
+        <h3>Successfully finished crowdfunding campaign for <a href="http://alisa.aleus.ru/?page_id=182" rel="nofollow">Alisa Computer School</a> Annual Conference for young programmers</h3>
+        <p>Special thanks to:
+            Sergeii Korobov, Alexeii Konoplev, Dmitrii Sizikov,
+            Vitaly Ivaschenko, Ivan Ivanov, Eugene Potapov,
+            Stepan Legachev, Vladimir Kuzmin... and looks like I missed someone :-(
+        </p>
+    </dd>
+
+
     <dt>16.04.2018</dt>
     <dd>
         <h1 class="red">We are experiencing minor outage in Russia</h1>
@@ -31,7 +50,14 @@
         <h1 class="red">PANIC MODE ON</h1>
         <h3>TELEGRAM IS DOWN</h3>
         <p><img src="img/telegram-down.jpg" width="406" height="209" alt="Telegram is DOWN"></p>
-        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Power outage at a <a href="https://twitter.com/telegram?ref_src=twsrc%5Etfw">@telegram</a> server cluster causing issues in Europe. Working to fix it from our side, but a lot depends on when the datacenter provider puts the power equipment in order.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/979284965178400769?ref_src=twsrc%5Etfw">March 29, 2018</a></blockquote>
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Power outage at a <a href="https://twitter.com/telegram?ref_src=twsrc%5Etfw" rel="nofollow">@telegram</a> server cluster causing issues in Europe. Working to fix it from our side, but a lot depends on when the datacenter provider puts the power equipment in order.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/979284965178400769?ref_src=twsrc%5Etfw" rel="nofollow">March 29, 2018</a></blockquote>
+    </dd>
+
+
+    <dt>22.03.2018</dt>
+    <dd>
+        <h3>Our Lead Social Opinion Statistics Provider have finished collecting Russian Presidential Election exit polls results</h3>
+        <h3><a href="img/irkfap_survey_2018.png">Here</a> and <a href="https://docs.google.com/spreadsheets/d/1gpGkRR0GZn7wVi-3dkK5EDhApb_WCurZi4NQiN-OId4/edit?usp=sharing" rel="nofollow">there</a></h3>
     </dd>
 
 
