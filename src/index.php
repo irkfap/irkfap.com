@@ -32,8 +32,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <br>
 
 
-<h1 class="red">We are experiencing major outage again</h1>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Massive overheating in one of the Telegram server clusters may cause some connection issues for European users within the next couple of hours. Apologies for the inconvenience – the problem is being solved.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/990371212877549568?ref_src=twsrc%5Etfw" rel="nofollow">April 28, 2018</a></blockquote>
+<h1 class="green">We are back</h1>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Repairs are ongoing after a massive power outage in the Amsterdam region that affected many services. Telegram users in Europe, MENA, Russia and the CIS are currently unable to connect. We apologize and will update you on the progress. <a href="https://t.co/WyfYimZoKV" rel="nofollow">https://t.co/WyfYimZoKV</a></p>&mdash; Telegram Messenger (@telegram) <a href="https://twitter.com/telegram/status/990474364108894209?ref_src=twsrc%5Etfw" rel="nofollow">April 29, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

@@ -7,13 +7,17 @@
 
 <dl>
 
-    <!--
+
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
     <dd>
         <p>All units are operational.</p>
     </dd>
-    -->
 
+
+    <dt>29.04.2018 08:40 UTC</dt>
+    <dd>
+        <h1 class="green">We are back</h1>
+    </dd>
 
 
     <dt>28.04.2018 22:40 UTC</dt>
