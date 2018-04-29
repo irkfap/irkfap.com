@@ -16,7 +16,7 @@
 
 
 
-    <dt>28.04.2018 22:40 GMT</dt>
+    <dt>28.04.2018 22:40 UTC</dt>
     <dd>
         <h1 class="red">We are experiencing major outage again</h1>
         <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Massive overheating in one of the Telegram server clusters may cause some connection issues for European users within the next couple of hours. Apologies for the inconvenience – the problem is being solved.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/990371212877549568?ref_src=twsrc%5Etfw" rel="nofollow">April 28, 2018</a></blockquote>
@@ -51,14 +51,14 @@
     </dd>
 
 
-    <dt>29.03.2018 11:27 GMT</dt>
+    <dt>29.03.2018 11:27 UTC</dt>
     <dd>
         <h1 class="green">PANIC MODE OFF</h1>
         <h3>Telegram is back and great again</h3>
     </dd>
 
 
-    <dt>29.03.2018 08:12 GMT</dt>
+    <dt>29.03.2018 08:12 UTC</dt>
     <dd>
         <h1 class="red">PANIC MODE ON</h1>
         <h3>TELEGRAM IS DOWN</h3>
