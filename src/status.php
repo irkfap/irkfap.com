@@ -6,11 +6,21 @@
 <body role="document">
 
 <dl>
+
+    <!--
     <dt><?php date_default_timezone_set('Europe/London'); echo date('d.m.Y'); ?></dt>
     <dd>
         <p>All units are operational.</p>
     </dd>
+    -->
 
+
+
+    <dt>29.04.2018</dt>
+    <dd>
+        <h1 class="red">We are experiencing major outage again</h1>
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Massive overheating in one of the Telegram server clusters may cause some connection issues for European users within the next couple of hours. Apologies for the inconvenience – the problem is being solved.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/990371212877549568?ref_src=twsrc%5Etfw" rel="nofollow">April 28, 2018</a></blockquote>
+    </dd>
 
 
     <dt>26.04.2018</dt>

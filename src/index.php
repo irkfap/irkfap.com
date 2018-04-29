@@ -32,8 +32,10 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 <br>
 
 
-<h1 class="red">We are experiencing minor outage in Russia</h1>
-<h3>Just send your LinkedIn profile to <a href="https://t.me/vitroot" rel="nofollow">@vitroot</a> to get fresh proxy</h3>
+<h1 class="red">We are experiencing major outage again</h1>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Massive overheating in one of the Telegram server clusters may cause some connection issues for European users within the next couple of hours. Apologies for the inconvenience – the problem is being solved.</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/990371212877549568?ref_src=twsrc%5Etfw" rel="nofollow">April 28, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 <br><br>
 
