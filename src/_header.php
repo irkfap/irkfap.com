@@ -1,6 +1,11 @@
 <?php require_once './_init.php'; ?>
 <?php if (IS_PROD): ?><base href="https://irkfap.com/"><?php endif; ?>
 <meta charset="utf-8">
+
+<meta name="description" content="Irkutsk First Amendment Protectors. Oldest active IT community in Irkutsk, Russia">
+<meta name="keywords" content="Irkfap,Irkutsk,Фапка,Фапочка">
+<meta name="author" content="Irkfap Community">
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
