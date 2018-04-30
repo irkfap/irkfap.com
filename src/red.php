@@ -22,6 +22,7 @@
             text-align: center;
         }
         .commi {
+            vertical-align: -7pt;
             vertical-align: -8%;
             transform: scale(-1, 1);
             display: inline-block;
