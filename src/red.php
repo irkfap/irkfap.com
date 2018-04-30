@@ -17,6 +17,7 @@
             font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
             font-size: 70pt;
             font-weight: 700;
+            letter-spacing: -1pt;
             color: #F00;
             text-align: center;
         }
@@ -29,7 +30,7 @@
 </head>
 <body role="document">
 
-<h1>COMMIN<span class="commi">☭</span> SOON</h1>
+<h1><nobr>COMMIN<span class="commi">☭</span></nobr> SOON</h1>
 
 <?php require_once './_ga.php'; ?>
 </body>
