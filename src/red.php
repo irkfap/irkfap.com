@@ -20,11 +20,16 @@
             color: #F00;
             text-align: center;
         }
+        .commi {
+            vertical-align: -7pt;
+            transform: scale(-1, 1);
+            display: inline-block;
+        }
     </style>
 </head>
 <body role="document">
 
-<h1>COMING SOON</h1>
+<h1>COMMIN<span class="commi">☭</span> SOON</h1>
 
 <?php require_once './_ga.php'; ?>
 </body>
