@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include_once './_header.php'; ?>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&amp;subset=latin-ext" rel="stylesheet">
     <style>
         html, body {
             height: 100%;
