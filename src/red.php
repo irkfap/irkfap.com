@@ -10,8 +10,9 @@
             align-items: center;
         }
         h1 {
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
             font-size: 70pt;
+            font-weight: 700;
             color: #F00;
             text-align: center;
         }
