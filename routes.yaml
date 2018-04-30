@@ -125,6 +125,7 @@ handlers:
   script: src/getip.php
 
 - url: /red/?
+  secure: always
   script: src/red.php
 
 
