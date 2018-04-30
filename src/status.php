@@ -14,6 +14,14 @@
     </dd>
 
 
+    <dt>30.04.2018</dt>
+    <dd>
+        <h1>Wow! New logo!</h1>
+        <h3>Work more, chat less, and don’t forget to hammer all nails</h3>
+        <p><a href="http://putin.red/"><img src="img/logo.png" width="256" height="256" alt="Yay! New logo! Free VPN for all are COMMIN☭ SOON!"></a></p>
+    </dd>
+
+
     <dt>29.04.2018 08:40 UTC</dt>
     <dd>
         <h1 class="green">We are back</h1>

@@ -31,15 +31,25 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 </pre>
 <br>
 
-
-<h1 class="green">We are back</h1>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Repairs are ongoing after a massive power outage in the Amsterdam region that affected many services. Telegram users in Europe, MENA, Russia and the CIS are currently unable to connect. We apologize and will update you on the progress. <a href="https://t.co/WyfYimZoKV" rel="nofollow">https://t.co/WyfYimZoKV</a></p>&mdash; Telegram Messenger (@telegram) <a href="https://twitter.com/telegram/status/990474364108894209?ref_src=twsrc%5Etfw" rel="nofollow">April 29, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<h1>Changes are coming!</h1>
+<p><a href="http://putin.red/"><img src="img/logo.png" width="512" height="512" alr="Yay! New logo!"></a></p>
 
 <br><br>
 
-<p>How deep you should regret about not selling Bitcoin half a year ago? Answer is right here!</p>
+<!--<p>How deep you should regret about not selling Bitcoin half a year ago? Answer is right here!</p>
+-->
+<!--
+<div class="btcwdgt-chart" bw-theme="light"></div>
+<script>
+    (function(b,i,t,C,O,I,N) {
+        window.addEventListener('load',function() {
+            if(b.getElementById(C))return;
+            I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+            I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+        },false)
+    })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
+-->
 
 <!-- TradingView Widget BEGIN
 <div style="max-width: 600px; margin: 20px 0;">
@@ -70,20 +80,6 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
     });
 </script>
 <!-- TradingView Widget END -->
-
-<!-- -->
-<div class="btcwdgt-chart" bw-theme="light"></div>
-<script>
-    (function(b,i,t,C,O,I,N) {
-        window.addEventListener('load',function() {
-            if(b.getElementById(C))return;
-            I=b.createElement(i),N=b.getElementsByTagName(i)[0];
-            I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
-        },false)
-    })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
-</script>
-<!-- -->
-
 
 <?php include_once './_footer.php'; ?>
 </body>
