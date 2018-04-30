@@ -124,6 +124,9 @@ handlers:
 - url: /getip/?
   script: src/getip.php
 
+- url: /red/?
+  script: src/red.php
+
 
 # Other static files
 - url: /(.*\.(html|css|js|map|png|jpg|gif))$
