@@ -4,7 +4,11 @@
     <?php include_once './_header.php'; ?>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet">
     <style>
+        html, body {
+            height: 100%;
+        }
         body {
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
