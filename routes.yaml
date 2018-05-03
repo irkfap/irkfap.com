@@ -130,9 +130,9 @@ handlers:
 
 
 # Other static files
-- url: /(.*\.(html|css|js|map|png|jpg|gif))$
+- url: /(.*\.(html|css|js|map|png|jpg|gif|mp4|svg))$
   static_files: public/\1
-  upload: public/.*\.(html|css|js|map|png|jpg|gif)$
+  upload: public/.*\.(html|css|js|map|png|jpg|gif|mp4|svg)$
   http_headers:
     Access-Control-Allow-Origin: "*"
 

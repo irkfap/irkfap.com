@@ -11,7 +11,10 @@
 
 <title><?php echo $t?:'Irkfap Community'; ?></title>
 
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff0000">
+<meta name="theme-color" content="#ff0000">
 
 <meta name="robots" content="index, follow">
 <link rel="dns-prefetch" href="https://mc.yandex.ru">
