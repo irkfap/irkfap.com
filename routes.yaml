@@ -146,6 +146,10 @@ handlers:
   script: src/start.php
   login: admin
 
+- url: /_ah/start
+  script: src/start.php
+  login: admin
+
 # Main entry point
 - url: /
   secure: always
