@@ -146,7 +146,7 @@ handlers:
   script: src/start.php
   login: admin
 
-- url: /_ah/start
+- url: /_ah/stop
   script: src/start.php
   login: admin
 
