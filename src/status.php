@@ -18,7 +18,7 @@
     <dd>
         <h1>Wow! New logo!</h1>
         <h3>Work more, chat less, and don’t forget to hammer all nails</h3>
-        <p><a href="http://putin.red/"><img src="img/logo.png" width="256" height="256" alt="Yay! New logo! Free VPN for all are COMMIN☭ SOON!"></a></p>
+        <p><a href="https://putin.red/"><img src="img/logo.png" width="256" height="256" alt="Yay! New logo! Free VPN for all are COMMIN☭ SOON!"></a></p>
     </dd>
 
 
