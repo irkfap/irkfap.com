@@ -20,6 +20,7 @@ Community Website
 * Deploy to production:
 
 		gcloud app deploy app.yaml --project irkfap-com -v prod-1 --quiet
+		gcloud app deploy back.yaml --project irkfap-com -v back-1 --no-promote --quiet
 
 
 ### Get logs from production 

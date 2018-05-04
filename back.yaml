@@ -1,0 +1,30 @@
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+# https://cloud.google.com/appengine/docs/php/config/appconfig#PHP_Warmup_requests
+#inbound_services:
+#- warmup
+
+service: back
+
+instance_class: B1
+manual_scaling:
+  instances: 1
+
+default_expiration: "30d"
+
+includes:
+- config.yaml
+- routes.yaml
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?\..*$
+- ^(.*/)?\.zip$
+- ^(.*/)?\.sh$
+- ^(.*/)?\.md$
+- ^\.idea$
+
