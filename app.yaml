@@ -6,9 +6,10 @@ threadsafe: yes
 #inbound_services:
 #- warmup
 
-instance_class: B1
-manual_scaling:
-  instances: 1
+instance_class: F1
+automatic_scaling:
+  min_idle_instances: 0
+  max_idle_instances: 1
 
 default_expiration: "30d"
 
