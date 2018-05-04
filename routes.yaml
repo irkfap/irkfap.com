@@ -137,11 +137,14 @@ handlers:
     Access-Control-Allow-Origin: "*"
 
 
-# Warm-up handler
+# Warm-up and start-up handlers
 - url: /_ah/warmup
   script: src/warmup.php
   login: admin
 
+- url: /_ah/start
+  script: src/start.php
+  login: admin
 
 # Main entry point
 - url: /
