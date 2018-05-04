@@ -22,6 +22,13 @@ Community Website
 		gcloud app deploy app.yaml --project irkfap-com -v prod-1 --quiet
 		gcloud app deploy back.yaml --project irkfap-com -v back-1 --no-promote --quiet
 
+This will deploy 2 versions (prod-1 and back-1) of the `default` service,
+ `prod-1` will be auto-scaled,
+ `back-1` will have basic scaling configuration.
+
+Traffic split between versions should be configured [here](https://console.cloud.google.com/appengine/versions?project=irkfap-com) like this: 
+ 75% for `prod-1` and 25% for `back-1`
+
 
 ### Get logs from production 
 	

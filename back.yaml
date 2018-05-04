@@ -6,11 +6,10 @@ threadsafe: yes
 #inbound_services:
 #- warmup
 
-service: back
-
 instance_class: B1
-manual_scaling:
-  instances: 1
+basic_scaling:
+  max_instances: 1
+  idle_timeout: 15m
 
 default_expiration: "30d"
 
