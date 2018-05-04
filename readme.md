@@ -20,13 +20,17 @@ Community Website
 * Deploy to production:
 
 		gcloud app deploy app.yaml --project irkfap-com -v prod-1 --quiet
-		
+
+
 ### Get logs from production 
 	
 	gcloud app logs read --logs=request_log --level warning --project irkfap-com -v prod-1 
 		
-See also: [https://cloud.google.com/sdk/gcloud/reference/app/logs/read](gcloud app logs read)
-				
+See also: [gcloud app logs read](https://cloud.google.com/sdk/gcloud/reference/app/logs/read)
+
+NB: Logs can be viewed in [Cloud Console](https://console.cloud.google.com/errors?time=P30D&order=COUNT_DESC&resolution=OPEN&resolution=ACKNOWLEDGED&project=irkfap-com)
+
+
 ### Run development environment locally
 
 	dev_appserver.py app.yaml
