@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<?php $t='Irkfap Community Status'; include_once './_header.php'; ?>
+<?php $t='Irkfap Community Status'; include __DIR__ . '/_header.php'; ?>
 </head>
 <body role="document">
 
@@ -167,7 +167,7 @@
 
 </dl>
 
-<?php include_once './_footer.php'; ?>
+<?php include __DIR__ . '/_footer.php'; ?>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>

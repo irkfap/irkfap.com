@@ -1,7 +1,7 @@
 <?php session_name('INVITEID'); session_start(); ?><!doctype html>
 <html lang="en">
 <head>
-<?php $t='Irkfap Community Invitation'; include_once './_header.php';
+<?php $t='Irkfap Community Invitation'; include __DIR__ . '/_header.php';
 $fileId = substr(base64_encode(md5(uniqid('', true))), mt_rand(0, 34), 9);
 $_SESSION['invite_id']  = $uniqId;
 $_SESSION['file_id']    = $fileId;
@@ -20,6 +20,6 @@ $_SESSION['file_id']    = $fileId;
         a.setAttribute( 'href', link.replace('<?php echo CHAN_ID; ?>', 'joinchat/' + <?php echo $uniqId; ?>) );
     </script>
 
-<?php include_once './_footer.php'; ?>
+<?php include __DIR__ . '/_footer.php'; ?>
 </body>
 </html>

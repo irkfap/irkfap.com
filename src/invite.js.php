@@ -1,4 +1,4 @@
-<?php require_once './_init.php';
+<?php require_once __DIR__ . '/_init.php';
 session_name('INVITEID'); session_start();
 
 header('Content-Type: application/javascript; charset=utf-8');

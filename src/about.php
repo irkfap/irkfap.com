@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<?php $t='About Irkfap Community'; include_once './_header.php'; ?>
+<?php $t='About Irkfap Community'; include __DIR__ . '/_header.php'; ?>
 </head>
 <body role="document">
 
@@ -46,6 +46,6 @@ Gleb Kolobkov — Lead Southern C++ Developer<br>
 <br>
 
 
-<?php include_once './_footer.php'; ?>
+<?php include __DIR__ . '/_footer.php'; ?>
 </body>
 </html>

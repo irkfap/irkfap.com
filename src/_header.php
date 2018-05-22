@@ -1,4 +1,4 @@
-<?php require_once './_init.php'; ?>
+<?php require_once __DIR__ . '/_init.php'; ?>
 <?php if (IS_PROD): ?><base href="https://irkfap.com/"><?php endif; ?>
 <meta charset="utf-8">
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<?php $t='Irkfap Community 3.0'; include_once './_header.php'; ?>
+<?php $t='Irkfap Community 3.0'; include __DIR__ . '/_header.php'; ?>
 </head>
 <body role="document">
 
@@ -81,6 +81,6 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 </script>
 <!-- TradingView Widget END -->
 
-<?php include_once './_footer.php'; ?>
+<?php include __DIR__ . '/_footer.php'; ?>
 </body>
 </html>
