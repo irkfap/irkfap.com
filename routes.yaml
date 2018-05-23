@@ -155,7 +155,11 @@ handlers:
   script: src/start.php
   login: admin
 
-# Main entry point
+# Index
 - url: /
   secure: always
   script: src/index.php
+
+# Main entry point
+- url: /.*
+  script: src/main.php
