@@ -31,8 +31,9 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 </pre>
 <br>
 
-<h1>Changes are coming!</h1>
-<p><a href="https://putin.red/"><img src="img/logo.png" width="512" height="512" alr="Yay! New logo!"></a></p>
+<p>
+    <img src="/img/gdpr_<?php echo IS_RU ? 'ru' : 'en' ?>.png" width="612" height="360" alt="" />
+</p>
 
 <br><br>
 
