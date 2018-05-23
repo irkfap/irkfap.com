@@ -93,11 +93,11 @@ handlers:
 
 
 # Let's Encrypt (ACME http-01 challenge)
-- url: /.well-known/acme-challenge/(.*)$
-  mime_type: text/plain
-  static_files: ACME/acme-challenge/\1
-  upload: ACME/acme-challenge/(.*)$
-  secure: never
+#- url: /.well-known/acme-challenge/(.*)$
+#  mime_type: text/plain
+#  static_files: ACME/acme-challenge/\1
+#  upload: ACME/acme-challenge/(.*)$
+#  secure: never
 
 
 # Dynamic entry points
