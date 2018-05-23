@@ -19,6 +19,7 @@ if ( in_array($url, $trapCatchUrls, true) ) {
     header('Location: ' . $redirect, true, 302);
     exit;
 } else {
+    http_response_code(404);
     include __DIR__ . '/404.php';
     exit;
 }
