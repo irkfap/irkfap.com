@@ -130,9 +130,8 @@ handlers:
 
 
 # assetlinks.json, security.txt, etc.
-- url: /.well-known/(.*)$
-  static_files: public/.well-known/\1
-  upload: public/\.well-known/(.*)$
+- url: /.well-known
+  static_dir: public/.well-known
 
 
 # Other static files
