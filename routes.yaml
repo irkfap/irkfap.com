@@ -129,6 +129,12 @@ handlers:
   script: src/red.php
 
 
+# assetlinks.json, security.txt, etc.
+- url: /.well-known/(.*)$
+  static_files: public/.well-known/\1
+  upload: public/\.well-known/(.*)$
+
+
 # Other static files
 - url: /(.*\.(html|css|js|map|png|jpg|gif|mp4|svg))$
   static_files: public/\1

@@ -1,0 +1,3 @@
+Contact: security@sib.li
+Contact: https://twitter.com/siberex
+Encryption: https://sib.li/pgp.asc
