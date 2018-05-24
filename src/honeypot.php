@@ -33,6 +33,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /SQLiteManager/main.php
 /SQLite/SQLiteManager-1.2.4/main.php
 /searchreplacedb2.php
+/include-sql.php
 
 /MySQLDumper
 /mySqlDumper
@@ -61,6 +62,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /admin/module-builtin.xml
 /administrator/index.php
 /admin/i18n/readme.txt
+/admin/assets/js/views/login.js
 
 /Wordpress/wp-login.php
 /wordpress/
@@ -79,6 +81,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /vtigercrm/vtigerservice.php
 
 /logo_img.php
+/newsletter/subscriber/new/
 
 /README.txt
 /readme.txt
