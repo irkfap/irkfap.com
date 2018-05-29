@@ -63,6 +63,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /administrator/index.php
 /admin/i18n/readme.txt
 /admin/assets/js/views/login.js
+/administrator/components/com_jinc/classes/graphics/php-ofc-
 
 /Wordpress/wp-login.php
 /wordpress/
@@ -95,6 +96,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /user/register
 
 /sitemap.xml.php
+/jenkins/script
 
 /wysiwygeditor/tinymce/plugins/ccSimpleUploader/uploader.php
 
