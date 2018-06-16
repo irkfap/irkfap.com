@@ -12,7 +12,7 @@ define('IS_PROD', array_key_exists('CURRENT_VERSION_ID', $_SERVER) && 0 === strp
 
 define('IS_RU', getLang() === 'ru');
 
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('UTC');
 define(dechex(crc32(INTEGRITY_CHECK)), CHAT_KEY);
 
 
