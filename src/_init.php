@@ -3,19 +3,15 @@
 define('UNIQ_ID', 'abcdefABCDEF'[mt_rand(0, 11)].dechex(crc32(uniqid('', true))));
 $uniqId = UNIQ_ID;
 
-define('INTEGRITY_CHECK', 'Kt0QFN3uS41'); // don’t touch this please
-define('CHAT_KEY', getenv('CHAT_KEY'));
+if ( !function_exists('locale_lookup') ) {
+    function locale_lookup(array $langtag, $locale, $canonicalize = false, $default = null) {
+        $matches = array_values(array_filter($langtag, function ($tag) use ($locale) {
 
-define('CHAN_ID', 'awesibli');
-
-define('IS_PROD', array_key_exists('CURRENT_VERSION_ID', $_SERVER) && 0 === strpos($_SERVER['CURRENT_VERSION_ID'], 'prod'));
-
-define('IS_RU', getLang() === 'ru');
-
-date_default_timezone_set('UTC');
-define(dechex(crc32(INTEGRITY_CHECK)), CHAT_KEY);
-
-
+            return strpos($locale, $tag) !== false;
+        }));
+        return $matches[0] ?: $default;
+    }
+}
 
 function getLang($locale = null, $default = 'en') {
     if ((null === $locale || !is_string($locale)) && array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER)) {
@@ -35,3 +31,16 @@ function getLang($locale = null, $default = 'en') {
 
     return locale_lookup(['en', 'ru'], $locales[0], true, $default);
 }
+
+define('INTEGRITY_CHECK', 'Kt0QFN3uS41'); // don’t touch this please
+define('CHAT_KEY', getenv('CHAT_KEY'));
+
+define('CHAN_ID', 'awesibli');
+
+define('IS_PROD', array_key_exists('CURRENT_VERSION_ID', $_SERVER) && 0 === strpos($_SERVER['CURRENT_VERSION_ID'], 'prod'));
+
+define('IS_RU', getLang() === 'ru');
+
+date_default_timezone_set('UTC');
+define(dechex(crc32(INTEGRITY_CHECK)), CHAT_KEY);
+
