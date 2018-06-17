@@ -31,9 +31,8 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 </pre>
 <br>
 
-<p>
-    <img src="/img/gdpr_<?php echo IS_RU ? 'ru' : 'en' ?>.png" width="612" height="360" alt="" />
-</p>
+<h1>Making YOU Great Again since 2009</h1>
+<p><img src="img/logo.png" width="256" height="256" alt="Yay! New logo!"></p>
 
 <br><br>
 

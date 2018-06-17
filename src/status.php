@@ -14,6 +14,16 @@
     </dd>
 
 
+    <dt>23.05.2018</dt>
+    <dd>
+        <h1>GDPR is here!</h1>
+        <p>
+            <img src="/img/gdpr_<?php echo IS_RU ? 'ru' : 'en' ?>.png" width="612" height="360" alt="GDPR HOMM 3 joke" />
+        </p>
+        <h3>Truth: We don’t give a single fuck</h3>
+    </dd>
+
+
     <dt>30.04.2018</dt>
     <dd>
         <h1>Wow! New logo!</h1>
