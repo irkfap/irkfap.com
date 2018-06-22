@@ -64,6 +64,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /admin/i18n/readme.txt
 /admin/assets/js/views/login.js
 /administrator/components/com_jinc/classes/graphics/php-ofc-
+/a2billing/admin/Public/index.php
 
 /Wordpress/wp-login.php
 /wordpress/
@@ -104,6 +105,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /js/sfi9876
 /~sfi9876
 
+/proxychecker/check.cgi
 /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 END_OF_HONEYPOT_CATCH_URLS;
 
