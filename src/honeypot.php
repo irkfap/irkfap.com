@@ -51,6 +51,7 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /webdav
 /xmlrpc-activate.php
 /xmlrpc.php
+/libraries/sfn.php
 
 /manager/html
 /cms/administrator
@@ -78,6 +79,14 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /wp-login.php
 /wp-content/plugins/cherry-plugin/admin/js/cherry-admin-plugin.js
 /wp-content/plugins/cherry-plugin/admin/css/widget-rules.css
+
+/wp-includes/wlwmanifest.xml
+/site/wp-includes/wlwmanifest.xml
+/cms/wp-includes/wlwmanifest.xml
+/wp/wp-includes/wlwmanifest.xml
+/blog/wp-includes/wlwmanifest.xml
+/wordpress/wp-includes/wlwmanifest.xml
+/wp/wp-admin/install.php
 
 /vtigercrm/matrix.php
 /vtigercrm/vtigerservice.php
