@@ -18,6 +18,11 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 → <a href="/status">Current Status</a>
 <br>
 
+<p><img src="img/logo.png" width="256" height="256" alt="Yay! New logo!"></p>
+
+<h1>Making YOU Great Again since 2009</h1>
+
+<h3>If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a dick.</h3>
 
 <pre>
  ____________
@@ -29,11 +34,6 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
                 ||----w |
                 ||     ||
 </pre>
-<br>
-
-<h1>Making YOU Great Again since 2009</h1>
-<p><img src="img/logo.png" width="256" height="256" alt="Yay! New logo!"></p>
-
 <br><br>
 
 <!--<p>How deep you should regret about not selling Bitcoin half a year ago? Answer is right here!</p>
