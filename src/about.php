@@ -13,7 +13,7 @@ Stepan Legachev — Lead Nose Picker<br>
 Sergay Kiselev — Lead Whining Crybaby Brigadier<br>
 Vyacheslav Kovalyov — Lead Mini Cooper Driver<br>
 Dmitrii Sizikov — Lead Bicycle Driver and Community Renovator<br>
-Yulia Dubinina — Lead Wannabe Senior Java Developer<br>
+Yulia Dubinina — Lead Senior Junior Java Developer<br>
 Ilya Chernikov — Lead Connectivity Provider<br>
 Anton Chaporgin — Lead Search Engine Insider<br>
 Alexander Kuzmin — Lead Fiction Writer<br>
