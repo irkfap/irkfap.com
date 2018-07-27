@@ -30,7 +30,7 @@ Traffic split between versions should be configured [here](https://console.cloud
  75% for `prod-1` and 25% for `back-1`
 
 
-### Get logs from production 
+### Get logs from production
 
 	gcloud app logs read --logs=request_log --level warning --project irkfap-com -v prod-1
 
