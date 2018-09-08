@@ -20,6 +20,7 @@ function trimUrl($url = '') {
 
 const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 /update.php
+/register.php
 
 /config.php
 /config.inc.php
