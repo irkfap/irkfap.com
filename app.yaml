@@ -30,9 +30,9 @@ skip_files:
 # Do not deploy bundle tests and docs
 - ^vendor\/(.*/)?.*/(Tests|tests|test)/.*$
 - ^vendor\/(.*/)?.*/(docs|doc)/.*$
-# Build tools — not to be confused with client-side dependencies inside public/node_modules
+# Build tools - not to be confused with client-side dependencies inside public/node_modules
 - ^node_modules/.*$
-# Let’s encrypt files
+# Let's encrypt files
 - ^ACME/.*$
 # Other stuff
 - ^(.*/)?\.zip$
