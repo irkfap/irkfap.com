@@ -18,7 +18,7 @@
     <dd>
         <h1>GDPR is here!</h1>
         <p>
-            <img src="/img/gdpr_<?php echo IS_RU ? 'ru' : 'en' ?>.png" width="612" height="360" alt="GDPR HOMM 3 joke" />
+            <img src="img/gdpr_<?php echo IS_RU ? 'ru' : 'en' ?>.png" width="612" height="360" alt="GDPR HOMM 3 joke">
         </p>
         <h3>Truth: We don’t give a single fuck</h3>
     </dd>
@@ -113,7 +113,7 @@
     <dt>08.11.2017</dt>
     <dd>
         <h3>Successfully finished crowdfunding for <a href="https://vk.com/cdttrob" rel="nofollow">Robotics department</a> of the <a href="http://cdtt38.ru/" rel="nofollow">Irkutsk junior school</a></h3>
-        <p><img src="./img/cdtt38.ru.jpg" width="640" height="480" alt="Julia Sergeeva and students of cdtt38.ru"></p>
+        <p><img src="img/cdtt38.ru.jpg" width="640" height="480" alt="Julia Sergeeva and students of cdtt38.ru"></p>
         <p>Special thanks to:
             Sergeii Korobov, Anton Malyshev, Anton Chaporgin, Vladimir Goshev,
             Alexander Scheglov, Konstantin Melnikov, Stepan Legachev, Alexeii Konoplev,
@@ -127,7 +127,7 @@
     <dd>
         <h1>All hail Irkfap 3.0!</h1>
         <h3>Good news, everyone! We are back!</h3>
-        <p><img src="./img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!"></p>
+        <p><img src="img/good-news.jpg" width="620" height="624" alt="Good news, everyone! We are back!"></p>
     </dd>
 
 
@@ -136,9 +136,9 @@
         <h1>We are experiencing a <span class="red">MAJOR OUTAGE</span> right now</h1>
         <h3>Sasha has been <i>PISDANOOLSYA</i></h3>
 
-        <h3><a href="./img/keep-calm.jpg">Keep calm</a> and <s>be a pandicorn</s> wait for the updates</h3>
+        <h3><a href="img/keep-calm.jpg">Keep calm</a> and <s>be a pandicorn</s> wait for the updates</h3>
 
-        <p><img src="./img/breaking-news.jpg" width="640" height="360" alt="Breaking news: Sasha is pisdanoolsya"></p>
+        <p><img src="img/breaking-news.jpg" width="640" height="360" alt="Breaking news: Sasha is pisdanoolsya"></p>
 
         <h3>Also the good news: <a href="https://irkfap.com">our website</a> now supports HTTP/2!</h3>
     </dd>
@@ -148,7 +148,7 @@
     <dd>
         <h1>6th Anniversary</h1>
         <h3>Annual community meeting has taken place in the Passatte Luxury Resort</h3>
-        <p><img src="./img/irkfap-2015.jpg" width="640" height="512" alt="6th Anniversary"></p>
+        <p><img src="img/irkfap-2015.jpg" width="640" height="512" alt="6th Anniversary"></p>
 
     </dd>
 
