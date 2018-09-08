@@ -14,6 +14,16 @@
     </dd>
 
 
+    <dt>23.08.2018</dt>
+    <dd>
+        <h1>We got shiny metal pins</h1>
+        <h3>Nice-looking all-metal pin badge for every community member!</h3>
+
+        <p><a href="img/pin2.jpg"><img src="img/pin2.jpg" width="640" height="360" alt="Irkfap Community shiny metal pins"></a></p>
+        <p><a href="img/pin1.jpg"><img src="img/pin1.jpg" width="640" height="360" alt="Irkfap Community metal pin on the backpack flap"></a></p>
+    </dd>
+
+
     <dt>23.05.2018</dt>
     <dd>
         <h1>GDPR is here!</h1>
