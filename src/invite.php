@@ -16,8 +16,8 @@ $_SESSION['file_id']    = $fileId;
     <script>
         // Crawler semi-protection
         var a = document.getElementById('a-invite');
-        var link = a.getAttribute('href');
-        a.setAttribute( 'href', link.replace('<?php echo CHAN_ID; ?>', 'joinchat/' + <?php echo $uniqId; ?>) );
+        // https://t.me/joinchat/CHAT_KEY → tg://join?invite=CHAT_KEY
+        a.setAttribute( 'href', 'tg://join?invite=' + <?php echo $uniqId; ?> );
     </script>
 
 <?php include __DIR__ . '/_footer.php'; ?>
