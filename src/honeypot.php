@@ -45,6 +45,14 @@ const HONEYPOT_CATCH_URLS = <<<'END_OF_HONEYPOT_CATCH_URLS'
 
 /myadmin
 /phpMyAdmin
+/phpmyadmin/favicon.ico
+
+/fckeditor/fckconfig.js
+/FCK/fckeditor.js
+/fckeditor.js
+/ckeditor/ckeditor.js
+
+/dialog/dialog.js
 
 /joomla/administrator
 
