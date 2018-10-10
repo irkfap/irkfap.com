@@ -140,9 +140,8 @@ sort($trapCatchUrls, SORT_NATURAL | SORT_FLAG_CASE);
 const HONEYPOT_REDIRECT_URLS = <<<'END_OF_HONEYPOT_REDIRECT_URLS'
 http://mirror.yandex.ru/linuxmint/stable/17.3/linuxmint-17.3-xfce-64bit.iso
 http://mirror.yandex.ru/linuxmint/stable/17.3/linuxmint-17.3-mate-oem-64bit.iso
-http://ftp.yandex.ru/centos/6.9/isos/x86_64/CentOS-6.9-x86_64-bin-DVD1.iso
-http://ftp.yandex.ru/centos/6.9/isos/x86_64/CentOS-6.9-x86_64-bin-DVD2.iso
-http://ftp.yandex.ru/centos/6.9/isos/x86_64/CentOS-6.9-x86_64-LiveDVD.iso
+http://ftp.yandex.ru/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1804.iso
+http://ftp.yandex.ru/centos/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1804.iso
 http://ftp.yandex.ru/fedora/linux/releases/28/Server/x86_64/iso/Fedora-Server-dvd-x86_64-28-1.1.iso
 http://mirror.yandex.ru/gentoo-distfiles/releases/x86/12.1/livedvd-x86-amd64-32ul-2012.1.iso
 http://mirror.yandex.ru/freebsd/releases/ISO-IMAGES/10.2/FreeBSD-10.2-RELEASE-amd64-uefi-dvd1.iso
