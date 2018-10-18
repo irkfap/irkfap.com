@@ -43,6 +43,7 @@ Alexander Batsuev — Deposed Rebel Team Lead<br>
 Alexander Delphist Scheglov — Lead Street Racer on Rails<br>
 Anatoly Naydenov — Lead Social Opinion Statistics Provider<br>
 Gleb Kolobkov — Lead Southern C++ Developer<br>
+Ruslan Shaimardanov — Lead Pilaf Developer<br>
 <br>
 
 
