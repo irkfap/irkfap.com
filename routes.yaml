@@ -162,4 +162,5 @@ handlers:
 
 # Main entry point
 - url: /.*
+  secure: always
   script: src/main.php

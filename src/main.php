@@ -9,6 +9,7 @@
 require_once __DIR__ . '/honeypot.php';
 
 // echo implode("\n", $trapCatchUrls) . "\n"; exit;
+header('Strict-Transport-Security: max-age=63072000; includeSubDomains; preload');
 
 $url = trimUrl($_SERVER['REQUEST_URI']);
 

@@ -1,3 +1,6 @@
+<?php
+    header('Strict-Transport-Security: max-age=63072000; includeSubDomains; preload');
+?>
 <!doctype html>
 <html lang="en">
 <head>
