@@ -14,6 +14,14 @@
     </dd>
 
 
+    <dt>17.11.2018</dt>
+    <dd>
+        <h1>Deportation day</h1>
+        <p>Final vote on Yulia exile.</p>
+        <p>That was <b>BALD</b> decision.</p>
+    </dd>
+
+
     <dt>23.08.2018</dt>
     <dd>
         <h1>We got shiny metal pins</h1>
