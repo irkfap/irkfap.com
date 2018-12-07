@@ -13,7 +13,7 @@ Stepan Legachev — Lead Nose Picker<br>
 Sergay Kiselev — Lead Whining Crybaby Brigadier<br>
 Vyacheslav Kovalyov — Lead Mini Cooper Driver<br>
 Dmitrii Sizikov — Lead Bicycle Driver and Community Renovator<br>
-Yulia Dubinina — Lead Radical Feminism Advocate<br>
+Yulia Dubinina — Exiled Lead Radical Baldness Advocate<br>
 Ilya Chernikov — Lead Connectivity Provider<br>
 Anton Chaporgin — Lead Search Engine Insider<br>
 Alexander Kuzmin — Lead Fiction Writer<br>
@@ -39,7 +39,7 @@ Lidia Mashechko — Lead Hand Made Expert<br>
 Julia Sergeeva — Lead Junior Robotics Expert<br>
 Margarita Kvaapagarrot — Lead Polską Państwo Ambassador<br>
 Ivan Ivanov — Lead White Hat Exploiter<br>
-Alexander Batsuev — Deposed Rebel Team Lead<br>
+Alexander Batsuev — Deposed Explosions and Demolitions Lead Expert<br>
 Alexander Delphist Scheglov — Lead Street Racer on Rails<br>
 Anatoly Naydenov — Lead Social Opinion Statistics Provider<br>
 Gleb Kolobkov — Lead Southern C++ Developer<br>
