@@ -2,3 +2,5 @@ env_variables:
   # Group Id from telegram invite link
   # https://t.me/joinchat/AbCdEfGhIjKl1234567890
   CHAT_KEY: 'AbCdEfGhIjKl1234567890'
+
+  BOT_NAME: 'putinred_bot'
