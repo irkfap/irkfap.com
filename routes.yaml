@@ -105,18 +105,6 @@ handlers:
   secure: always
   script: src/about.php
 
-- url: /donate/?
-  secure: always
-  script: src/invite.php
-
-- url: /invite/(.*\.js)$
-  secure: always
-  script: src/invite.js.php
-
-- url: /invite/?
-  secure: always
-  script: src/invite.php
-
 - url: /status/?
   secure: always
   script: src/status.php
@@ -127,6 +115,33 @@ handlers:
 - url: /red/?
   secure: always
   script: src/red.php
+
+
+# Login
+- url: /login/?
+  secure: always
+  script: src/login.php
+
+- url: /logout/?
+  secure: always
+  script: src/logout.php
+
+
+# Invite link
+- url: /donate/?
+  #login: admin
+  secure: always
+  script: src/invite.php
+
+- url: /invite/(.*\.js)$
+  #login: admin
+  secure: always
+  script: src/invite.js.php
+
+- url: /invite/?
+  #login: admin
+  secure: always
+  script: src/invite.php
 
 
 # assetlinks.json, security.txt, etc.
