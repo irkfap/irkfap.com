@@ -13,6 +13,11 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>22.03.2019</dt>
+    <dd>
+        <p>Started preparations for 10th Anniversary…</p>
+        <p><img src="img/logo_irkfap-10yr-anniversary-black.png" width="500" height="500" alt="10th Anniversary teaser!"></p>
+    </dd>
 
     <dt>17.11.2018</dt>
     <dd>

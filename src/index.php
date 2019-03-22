@@ -21,7 +21,8 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 → <a href="/status">Current Status</a>
 <br>
 
-<p><img src="img/logo.png" width="256" height="256" alt="Yay! New logo!"></p>
+<!-- p><img src="img/logo.png" width="256" height="256" alt="Yay! New logo!"></p -->
+<p><img src="img/logo_irkfap-10yr-anniversary-black.png" width="500" height="500" alt="10th Anniversary teaser!"></p>
 
 <h1>Making YOU Great Again since 2009</h1>
 
