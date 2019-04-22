@@ -13,6 +13,12 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>22.04.2019</dt>
+    <dd>
+        <p>OK, maybe next month</p>
+        <p><img src="img/logo_irkfap-10yr-anniversary-may.png" width="500" height="500" alt="Irkfap Community 10 years teaser - May"></p>
+    </dd>
+
     <dt>22.03.2019</dt>
     <dd>
         <p>Started preparations for 10th Anniversary…</p>
