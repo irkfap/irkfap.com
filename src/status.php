@@ -17,6 +17,7 @@
     <dd>
         <h3>VPN and proxy services are temporary <span class="red">DOWN</span>.</h3>
         <p>Waiting for MEINLAND to resolve the incident.</p>
+        <p class="green">08:05 UTC: <a href="https://status.putin.red" rel="nofollow">resolved</a>.</p>
     </dd>
 
     <dt>24.04.2019</dt>
