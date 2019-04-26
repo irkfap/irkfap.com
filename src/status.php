@@ -13,6 +13,23 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>26.04.2019 07:55 UTC</dt>
+    <dd>
+        <h3>VPN and proxy services are temporary <span class="red">DOWN</span>.</h3>
+        <p>Waiting for MEINLAND to resolve the incident.</p>
+    </dd>
+
+    <dt>24.04.2019</dt>
+    <dd>
+        <h3>Successfully finished crowdfunding campaign for <a href="http://alisa.aleus.ru/" rel="nofollow">Alisa Computer School</a> Annual Conference for young programmers</h3>
+        <p>Special thanks to:
+            Sergeii Korobov, Dmitrii Sizikov, Alexeii Konoplev,
+            Eugene Potapov, Konstantin Melnikov, Julia Sergeeva,
+            Stepan Legachev, Sergeii Petrov, Vitaly Ivaschenko,
+            Anton Malyshev, Alexander Scheglov and Maxim Perelygin.
+        </p>
+    </dd>
+
     <dt>22.04.2019</dt>
     <dd>
         <p>OK, maybe next month</p>
