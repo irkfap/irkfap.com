@@ -21,7 +21,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 → <a href="/status">Current Status</a>
 <br>
 
-<h1><img src="img/logo.png" width="256" height="256" alt="Irkfap logo"> Making YOU Great Again since 2009</h1>
+<h1><img src="img/logo.png" width="256" height="256" alt="Irkfap logo"> <nobr>Making YOU Great Again since 2009</nobr></h1>
 
 <p>
     <a href="/img/10th_anniversary/10th_anniversary_bw.jpg"><img src="img/10th_anniversary/10th_anniversary_bw_small.jpg" width="900" height="447" alt="Irkfap 10th Anniversary meeting"></a>
@@ -39,7 +39,7 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
                 ||----w |
                 ||     ||
 </pre>
-<br><br>
+<br>
 
 <?php include __DIR__ . '/_footer.php'; ?>
 </body>
