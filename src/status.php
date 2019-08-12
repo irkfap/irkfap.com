@@ -13,6 +13,15 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>10.08.2019</dt>
+    <dd>
+        <h1>Fapočka <span class="red">X</span></h1>
+        <p>10th Anniversary Meeting has taken place at the Suzrshire Resort</p>
+        <p>
+            <a href="/img/10th_anniversary/10th_anniversary_bw.jpg"><img src="img/10th_anniversary/10th_anniversary_bw_small.jpg" width="900" height="447" alt="Irkfap 10th Anniversary meeting"></a>
+        </p>
+    </dd>
+
     <dt>26.04.2019 07:55 UTC</dt>
     <dd>
         <h3>VPN and proxy services are temporary <span class="red">DOWN</span>.</h3>

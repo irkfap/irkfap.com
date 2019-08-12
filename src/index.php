@@ -21,10 +21,11 @@ Contact: <a href="mailto:<?php echo $address; ?>"><?php echo $address; ?></a>
 → <a href="/status">Current Status</a>
 <br>
 
-<!-- p><img src="img/logo.png" width="256" height="256" alt="Yay! New logo!"></p -->
-<p><img src="img/logo_irkfap-10yr-anniversary-may.png" width="500" height="500" alt="Irkfap 10th Anniversary teaser!"></p>
+<h1><img src="img/logo.png" width="256" height="256" alt="Irkfap logo"> Making YOU Great Again since 2009</h1>
 
-<h1>Making YOU Great Again since 2009</h1>
+<p>
+    <a href="/img/10th_anniversary/10th_anniversary_bw.jpg"><img src="img/10th_anniversary/10th_anniversary_bw_small.jpg" width="900" height="447" alt="Irkfap 10th Anniversary meeting"></a>
+</p>
 
 <h3>If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a dick.</h3>
 
