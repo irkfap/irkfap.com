@@ -6,8 +6,9 @@ on:
       - master
 
 jobs:
-  deploy:
-    name: Deploy
+  deploy-gae:
+    name: App Engine Deployment
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: exelban/gcloud@v1.0.0
