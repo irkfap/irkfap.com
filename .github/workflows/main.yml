@@ -12,10 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: import config.yaml
-        run: echo "$CONFIG_YAML" | base64 -d > config.yaml
-      - uses: exelban/gcloud@v1.0.0
+        run: echo "${CONFIG_YAML}" | base64 -d > config.yaml
+      - uses: exelban/gcloud@8f13407
         env:
           PROJECT_ID: ${{secrets.GCLOUD_PROJECT_ID}}
           APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
+          VERSION_TAG: ${{ format('{0}-{1}', github.actor, github.sha) }}
         with:
-          args: app deploy app.yaml --quiet
+          args: app deploy app.yaml --quiet -v "${VERSION_TAG}"
