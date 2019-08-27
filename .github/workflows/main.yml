@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: import config.yaml
+        run: echo "$CONFIG_YAML" | base64 -d > config.yaml
       - uses: exelban/gcloud@v1.0.0
         env:
           PROJECT_ID: ${{secrets.GCLOUD_PROJECT_ID}}
