@@ -12,7 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: import config.yaml
-        run: echo "${secrets.CONFIG_YAML}" | base64 -d > config.yaml
+        env:
+          CONFIG_YAML: ${{secrets.CONFIG_YAML}}
+        run: echo "${CONFIG_YAML}" | base64 -d > config.yaml
       - uses: exelban/gcloud@8f13407
         env:
           PROJECT_ID: ${{secrets.GCLOUD_PROJECT_ID}}
