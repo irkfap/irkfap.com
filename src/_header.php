@@ -2,7 +2,7 @@
 <?php if (IS_PROD): ?><base href="https://irkfap.com/"><?php endif; ?>
 <meta charset="utf-8">
 
-<meta name="description" content="Irkutsk First Amendment Protectors. Oldest active IT community in Irkutsk, Russia">
+<meta name="description" content="Irkutsk First Amendment Protectors. The oldest IT community in the region">
 <meta name="keywords" content="Irkfap,Irkutsk,Фапка,Фапочка,Иркфап">
 <meta name="author" content="Irkfap Community">
 
