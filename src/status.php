@@ -13,6 +13,17 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>13.03.2020</dt>
+    <dd>
+        <h1 class="red">Cancellation notice</h1>
+
+        <p>Due to Coronavirus disease (COVID-19) outbreak we are cancelling planned 2020 Anniversary Meeting along with any other upcoming meetings until further notice.</p>
+
+        <p>We are issuing official public statement:</p>
+
+        <p><img src="/img/fly-you-fools.jpg" width="625" height="447" alt="Fly, you fools! Panda Gandalf meme"></p>
+    </dd>
+
     <dt>10.08.2019</dt>
     <dd>
         <h1>Fapočka <span class="red">X</span></h1>
