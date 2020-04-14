@@ -13,6 +13,14 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>14.03.2020</dt>
+    <dd>
+        <h1>Irkfap GitHub organization established</h1>
+        <p>
+            <a href="https://github.com/irkfap"><img src="/img/github-announcement.png" width="640" height="417" alt="Irkfap is now on GitHub"></a>
+        </p>
+    </dd>
+
     <dt>13.03.2020</dt>
     <dd>
         <h1 class="red">Cancellation notice</h1>
