@@ -9,16 +9,30 @@ jobs:
   deploy-gae:
     name: App Engine Deployment
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+        #with:
+        #  submodules: true
+
       - name: import config.yaml
         env:
-          CONFIG_YAML: ${{secrets.CONFIG_YAML}}
+          CONFIG_YAML: ${{ secrets.CONFIG_YAML }}
         run: echo "${CONFIG_YAML}" | base64 -d > config.yaml
-      - uses: exelban/gcloud@8f13407
-        env:
-          PROJECT_ID: ${{secrets.GCLOUD_PROJECT_ID}}
-          APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
-          VERSION_TAG: ${{ format('{0}-{1}', github.actor, github.sha) }}
+
+      # Setup GCloud CLI
+      - name: GCloud CLI
+        uses: GoogleCloudPlatform/github-actions/setup-gcloud@20c294a
         with:
-          args: app deploy app.yaml --quiet -v "${VERSION_TAG}"
+          version: '289.0.0'
+          project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
+          service_account_email: ${{ secrets.GCP_SA_EMAIL }}
+          service_account_key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+          export_default_credentials: true
+
+      - name: Deploy
+        env:
+          VERSION_TAG: ${{ format('{0}-{1}', github.actor, github.sha) }}
+        run: |-
+          gcloud app deploy app.yaml --quiet -v "${VERSION_TAG}"
