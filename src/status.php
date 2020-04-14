@@ -13,7 +13,7 @@
         <p>All units are operational.</p>
     </dd>
 
-    <dt>14.03.2020</dt>
+    <dt>14.04.2020</dt>
     <dd>
         <h1>Irkfap GitHub organization established</h1>
         <p>
