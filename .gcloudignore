@@ -1,0 +1,9 @@
+/.github/
+/_assets/
+/*.yaml
+*.md
+
+.gcloudignore
+.git
+.gitignore
+#!include:.gitignore
