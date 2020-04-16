@@ -13,25 +13,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        #with:
-        #  submodules: true
 
-      - name: import config.yaml
-        env:
-          CONFIG_YAML: ${{ secrets.CONFIG_YAML }}
-        run: echo "${CONFIG_YAML}" | base64 -d > config.yaml
+      - name: Import config.yaml
+        run: echo "${{ secrets.CONFIG_YAML }}" | base64 -d > config.yaml
 
-      # Setup GCloud CLI
-      - name: GCloud CLI
-        uses: GoogleCloudPlatform/github-actions/setup-gcloud@20c294a
-        with:
-          version: '289.0.0'
-          project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
-          service_account_email: ${{ secrets.GCP_SA_EMAIL }}
-          service_account_key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      - name: Import Service Account key
+        run: echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" | base64 -d > /tmp/auth.json
+
+      - name: GCloud Auth
+        run: |
+          gcloud --quiet auth \
+          activate-service-account "${{ secrets.GCP_SA_EMAIL }}" \
+          --key-file=/tmp/auth.json \
+          --project="${{ secrets.GCLOUD_PROJECT_ID }}"
 
       - name: Deploy
-        env:
-          VERSION_TAG: ${{ format('{0}-{1}', github.actor, github.sha) }}
         run: |
-          gcloud app deploy app.yaml --quiet -v "${VERSION_TAG}"
+          gcloud app deploy app.yaml --quiet -v "${GITHUB_ACTOR}-${GITHUB_SHA:0:7}"
