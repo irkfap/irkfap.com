@@ -37,7 +37,19 @@ define('CHAT_KEY', getenv('CHAT_KEY'));
 
 define('CHAN_ID', 'awesibli');
 
-define('IS_PROD', array_key_exists('CURRENT_VERSION_ID', $_SERVER) && 0 === strpos($_SERVER['CURRENT_VERSION_ID'], 'prod'));
+define(
+    'IS_LIVE',
+    array_key_exists('SERVER_SOFTWARE', $_SERVER)
+        && 0 === strpos($_SERVER['SERVER_SOFTWARE'], 'Google App Engine')
+);
+define(
+    'IS_DEV',
+    array_key_exists('CURRENT_VERSION_ID', $_SERVER) && (
+        0 === strpos($_SERVER['CURRENT_VERSION_ID'], 'test') ||
+        0 === strpos($_SERVER['CURRENT_VERSION_ID'], 'dev')
+    )
+);
+define('IS_PROD', IS_LIVE && !IS_DEV);
 
 define('IS_RU', getLang() === 'ru');
 
