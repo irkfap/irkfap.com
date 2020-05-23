@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 
 <meta name="description" content="Irkutsk First Amendment Protectors. The oldest IT community in the region">
-<meta name="keywords" content="Irkfap,Irkutsk,Фапка,Фапочка,Иркфап">
+<meta name="keywords" content="Irkfap,Irkutsk,Фапка,Фапочка,Иркфап,Fapočka">
 <meta name="author" content="Irkfap Community">
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
