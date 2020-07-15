@@ -13,6 +13,14 @@
         <p>All units are operational.</p>
     </dd>
 
+    <dt>15.07.2020</dt>
+    <dd>
+        <h1><a href="https://techcrunch.com/2020/07/15/twitter-accounts-hacked-crypto-scam/" rel="nofollow">FIAL OF THE YEAR</a></h1>
+        <p>Our financial experts are issuing official statement:</p>
+        <h1 class="red">DUMP TWITTER STOCK RIGHT NOW</h1>
+        <p>Yes, of course we <a href="https://twitter.com/irkfap/status/1283522021792546817">published that in our Twitter</a></p>
+    </dd>
+
     <dt>14.04.2020</dt>
     <dd>
         <h1>Irkfap GitHub organization established</h1>
