@@ -3,7 +3,7 @@ name: app-engine
 on:
   push:
     branches:
-      - master
+      - main-kampf
 
 jobs:
   deploy-gae:
