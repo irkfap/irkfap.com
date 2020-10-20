@@ -1,0 +1,24 @@
+# PROJECT_ID=project-id
+# gcloud iam roles create appengine_deployer_gh_actions --file=appengine_deployer_role.yml --project=${PROJECT_ID}
+# gcloud iam service-accounts create github-actions-deployment --display-name "github-actions-deployment" --project=${PROJECT_ID}
+# gcloud projects add-iam-policy-binding ${PROJECT_ID} --member="serviceAccount:github-actions-deployment@${PROJECT_ID}.iam.gserviceaccount.com" --role="projects/${PROJECT_ID}/roles/appengine_deployer_gh_actions" --condition=None
+
+title: AppEngine Deployer GH Actions
+description: Custom Role with required permissions for GAE deployment
+stage: GA
+includedPermissions:
+- appengine.applications.get
+- appengine.operations.get
+- appengine.services.list
+- appengine.services.update
+- appengine.versions.create
+- appengine.versions.list
+- appengine.versions.update
+- cloudbuild.builds.create
+- cloudbuild.builds.get
+- iam.serviceAccounts.actAs
+- storage.buckets.get
+- storage.objects.create
+- storage.objects.delete
+- storage.objects.get
+- storage.objects.list
