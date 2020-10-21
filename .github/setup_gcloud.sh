@@ -11,7 +11,7 @@ if [ -n "$1" ]; then
 fi
 [ -z "$GOOGLE_CLOUD_PROJECT" ] && GOOGLE_CLOUD_PROJECT=$(gcloud config list --format 'value(core.project)')
 
-gcloud iam roles create appengine_deployer_gh_actions --file="{$BASEDIR}/appengine_deployer_role.yml" --project="${GOOGLE_CLOUD_PROJECT}"
+gcloud iam roles create appengine_deployer_gh_actions --file="$BASEDIR/appengine_deployer_role.yml" --project="${GOOGLE_CLOUD_PROJECT}"
 gcloud iam service-accounts create github-actions-deployment --display-name "github-actions-deployment" --project="${GOOGLE_CLOUD_PROJECT}"
 gcloud projects add-iam-policy-binding "${GOOGLE_CLOUD_PROJECT}" --member="serviceAccount:github-actions-deployment@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com" --role="projects/${GOOGLE_CLOUD_PROJECT}/roles/appengine_deployer_gh_actions" --condition=None
 
