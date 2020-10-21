@@ -7,7 +7,7 @@ set -euo pipefail
 BASEDIR="$( cd "$(dirname "$0")" || true ; pwd -P )"
 
 if [ -n "$1" ]; then
-  echo GOOGLE_CLOUD_PROJECT="$1"
+  GOOGLE_CLOUD_PROJECT="$1"
 fi
 [ -z "$GOOGLE_CLOUD_PROJECT" ] && GOOGLE_CLOUD_PROJECT=$(gcloud config list --format 'value(core.project)')
 
