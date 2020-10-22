@@ -19,4 +19,6 @@ TMP_OUTPUT_FILE="$(mktemp)"
 
 gcloud iam service-accounts keys create "${TMP_OUTPUT_FILE}" --iam-account "github-actions-deployment@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com"
 
-printf "\nHere is your GOOGLE_APPLICATION_CREDENTIALS (copy all lines):\n\n%s\n\n" "$(base64 "${TMP_OUTPUT_FILE}")"
+printf "\nGCLOUD_PROJECT_ID: %s\n" "${GOOGLE_CLOUD_PROJECT}"
+printf "\nGCP_SA_EMAIL: %s\n" "github-actions-deployment@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com"
+printf "\nGOOGLE_APPLICATION_CREDENTIALS (copy all lines):\n\n%s\n\n" "$(base64 "${TMP_OUTPUT_FILE}")"
