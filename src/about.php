@@ -2,12 +2,22 @@
 <html lang="en">
 <head>
 <?php $t='About Irkfap Community'; include __DIR__ . '/_header.php'; ?>
+<style>
+    #kvaapagarrot::before {
+        content: "✟";
+        transform: rotate(180deg);
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 0.2em;
+        padding-top: 0.01em;
+    }
+</style>
 </head>
 <body role="document">
 
 
 <h3>Our team:</h3>
-Sergeii Korobov — Unser Lieben Führer<br>
+Sergeii Korobov — Lead Unser Lieben Führer<br>
 Maxim Perelygin — Lead Steampowered Publisher<br>
 Stepan Legachev — Lead Nose Picker<br>
 Sergay Kiselev — Lead Whining Crybaby Brigadier<br>
@@ -37,13 +47,13 @@ Anton Malyshev — Lead Irish Ambassador<br>
 Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced DevOps<br>
 Lidia Mashechko — Lead Hand Made Expert<br>
 Julia Sergeeva — Lead Junior Robotics Expert<br>
-Margarita Kvaapagarrot — Lead Polską Państwo Ambassador<br>
+<a id="kvaapagarrot" href="https://kvaapagarrot.com/">Margarita Kvaapagarrot</a> — Lead Polską Państwo Ambassador<br>
 Ivan Ivanov — Lead White Hat Exploiter<br>
-Alexander Batsuev — Deposed Explosions and Demolitions Lead Expert<br>
+Alexander Batsuev — Lead Gambling Expert<br>
 Alexander Delphist Scheglov — Lead Street Racer on Rails<br>
-Anatoly Naydenov — Lead Social Opinion Statistics Provider<br>
-Gleb Kolobkov — Lead Southern C++ Developer<br>
-Ruslan Shaimardanov — Lead Pilaf Developer<br>
+Anatoly Naydenov — Lead Social Opinion Aggregator<br>
+Gleb Kolobkov — Lead Senior Travelling C++ Engineer<br>
+Ruslan Shaimardanov — Lead Pilaf Engineer<br>
 <br>
 
 
