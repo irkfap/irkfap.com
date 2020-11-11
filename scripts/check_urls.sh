@@ -1,14 +1,25 @@
 #!/usr/bin/env bash
 
-# Check each URL from list of URLs
-# Prints out if HEAD request were successful or not
-#
-# Usage:
-#   ./check_urls.sh /path/to/url_list.txt
-# or:
-#   cat /path/to/url_list.txt | ./check_urls.sh
-
 set -euo pipefail
+
+CMD_NAME=${0##*/}
+
+usage() {
+    cat <<USAGE >&2
+Check each URL from list of URLs.
+Prints out if HEAD request were successful or not.
+
+Usage:
+    $CMD_NAME [--filter] /path/to/url_list.txt
+    --filter  Optional. Filters out URLs which are returning 200 and prints them out.
+              Otherwise will print out each URL along with HTTP code in fancy colors.
+    --help    Prints this help
+
+URL list could be provided through STDIN:
+    cat /path/to/url_list.txt | $CMD_NAME [--filter]
+USAGE
+    exit 1
+}
 
 # Fancy colors
 blu="\e[94m"   # Light Blue
@@ -18,19 +29,36 @@ function printok() {
   printf "✅ ${blu}%s${clr}\n" "$*"
 }
 function printerr() {
-  printf "❌ ${red}%s${clr}\n" "$*"
+  printf "❌ ${red}%s${clr}\n" "$*" >&2
 }
 
-#BASEDIR="$( cd "$(dirname "$0")" || true ; pwd -P )"
-#URLS="${BASEDIR}/gen_honeypot_urls.txt"
+FILTER=0
+URLS=
+
+# Process arguments
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+    --filter)
+        FILTER=1
+        shift 1
+        ;;
+    --help)
+        usage
+        ;;
+    *)
+        URLS="$1"
+        shift 1
+        ;;
+    esac
+done
 
 while read -r URL
 do
   RES=$(curl --head --silent --location --output /dev/null --write-out "%{http_code}" "${URL}")
-  if [ "$RES" = "200" ]; then
-      printok "$RES" "$URL"
+
+  if [[ $FILTER -eq 1 ]]; then
+    [ "$RES" = "200" ] && echo "${URL}"
   else
-      printerr "$RES" "$URL"
+    if [ "$RES" = "200" ]; then printok "$RES" "$URL"; else printerr "$RES" "$URL"; fi
   fi
-done < <(grep -v "^$" "${1:-/dev/stdin}")
-#done < <(grep -v "^$" "${URLS}")
+done < <(grep -v "^$" "${URLS:-/dev/stdin}")
