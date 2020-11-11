@@ -9,7 +9,7 @@
         text-decoration: none;
         display: inline-block;
         margin-right: 0.2em;
-        padding-top: 0.01em;
+        line-height: 1em;
     }
 </style>
 </head>
