@@ -5,7 +5,7 @@ set -euo pipefail
 CMD_NAME=${0##*/}
 
 usage() {
-    cat <<USAGE >&2
+  cat <<USAGE >&2
 Check each URL from list of URLs.
 Prints out if HEAD request were successful or not.
 
@@ -18,7 +18,7 @@ Usage:
 URL list could be provided through STDIN:
     cat /path/to/url_list.txt | $CMD_NAME [--filter]
 USAGE
-    exit 1
+  exit 1
 }
 
 # Fancy colors
@@ -37,28 +37,26 @@ URLS=
 
 # Process arguments
 while [[ $# -gt 0 ]]; do
-    case "$1" in
-    --filter)
-        FILTER=1
-        shift 1
-        ;;
-    --help)
-        usage
-        ;;
-    *)
-        URLS="$1"
-        shift 1
-        ;;
-    esac
+  case "$1" in
+  --filter)
+    FILTER=1
+    shift 1
+    ;;
+  --help)
+    usage
+    ;;
+  *)
+    URLS="$1"
+    shift 1
+    ;;
+  esac
 done
 
-while read -r URL
-do
+while read -r URL; do
   RES=$(curl --head --silent --location --output /dev/null --write-out "%{http_code}" "${URL}")
-
-  if [[ $FILTER -eq 1 ]]; then
-    [ "$RES" = "200" ] && echo "${URL}"
+  if [ "$RES" = "200" ]; then
+    [[ $FILTER -eq 0 ]] && printok "$RES" "$URL" || echo "${URL}"
   else
-    if [ "$RES" = "200" ]; then printok "$RES" "$URL"; else printerr "$RES" "$URL"; fi
+    [[ $FILTER -eq 0 ]] && printerr "$RES" "$URL"
   fi
 done < <(grep -v "^$" "${URLS:-/dev/stdin}")
