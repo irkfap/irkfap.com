@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Usage: .github/setup_gcloud.sh [PROJECT_ID]
+# Usage: ./setup_gcloud.sh [PROJECT_ID]
 
 set -euo pipefail
 

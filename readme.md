@@ -9,7 +9,7 @@ Community Website
 
 1. Enable [App Engine Admin API](https://console.developers.google.com/apis/api/appengine.googleapis.com/overview) for your project.
 
-2. Launch `.github/setup_gcloud.sh [PROJECT_ID]` script or do a manual setup for gcloud:
+2. Launch `scripts/setup_gcloud.sh [PROJECT_ID]` script **OR** do a manual setup for gcloud:
  
     Add Service Account in [Cloud Console → IAM & Admin → Service Accounts](https://console.cloud.google.com/iam-admin/serviceaccounts) and assign it the following Roles:
 

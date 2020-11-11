@@ -1,5 +1,6 @@
 /.github/
 /_assets/
+/scripts/
 /*.yaml
 *.md
 
