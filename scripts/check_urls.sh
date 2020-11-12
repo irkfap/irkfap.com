@@ -59,4 +59,4 @@ while read -r URL; do
   else
     [[ $FILTER -eq 0 ]] && printerr "$RES" "$URL"
   fi
-done < <(grep -v "^$" "${URLS:-/dev/stdin}")
+done < <(grep "^http" "${URLS:-/dev/stdin}")
