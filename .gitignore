@@ -2,3 +2,5 @@
 .idea/**
 
 config.yaml
+
+scripts/output.txt
