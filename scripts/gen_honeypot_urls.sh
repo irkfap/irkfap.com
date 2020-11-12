@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+# Exit script when command fails
+set -o errexit
+# Exit when script tries to use undeclared variable
+set -o nounset
 
 BASEDIR="$(
   cd "$(dirname "$0")" || true
