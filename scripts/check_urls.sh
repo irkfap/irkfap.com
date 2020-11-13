@@ -53,10 +53,10 @@ while [[ $# -gt 0 ]]; do
 done
 
 while read -r URL; do
-  RES=$(curl --head --silent --location --output /dev/null --write-out "%{http_code}" "${URL}")
+  RES=$(curl --head --silent --location --output /dev/null --write-out "%{http_code}" "${URL}" 2>/dev/null || true)
   if [ "$RES" = "200" ]; then
     [[ $FILTER -eq 0 ]] && printok "$RES" "$URL" || echo "${URL}"
   else
     [[ $FILTER -eq 0 ]] && printerr "$RES" "$URL"
   fi
-done < <(grep "^http" "${URLS:-/dev/stdin}")
+done < <(grep -i "^https\?://" "${URLS:-/dev/stdin}")
