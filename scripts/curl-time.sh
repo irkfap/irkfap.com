@@ -12,6 +12,8 @@ while IFS='' read -r line; do URLS+=("$line"); done < <(cat << END_OS_LIST
 be.ololo.li
 ch.ololo.li
 de.ololo.li
+uk.ololo.li
+us.ololo.li
 hk.ololo.li
 jp.ololo.li
 kr.ololo.li
@@ -25,7 +27,7 @@ for url in ${URLS[*]}; do
   req_time_sum=0
   for (( i=1; i<=NUM_REQUESTS; i++ )); do
     # Measure either %{time_starttransfer} or %{time_total}
-    req_time=$(curl -s -o /dev/null -w "%{time_total}" "$url")
+    req_time=$(curl -s -o /dev/null -w "%{time_total}" "$url" | sed 's/,/\./')
     #echo "$req_time"
     req_time_sum=$(awk "BEGIN{ print $req_time_sum + $req_time }")
   done
