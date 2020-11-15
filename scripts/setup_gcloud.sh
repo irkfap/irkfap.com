@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 
-# Usage: ./setup_gcloud.sh [PROJECT_ID]
+# Usage: scripts/setup_gcloud.sh [PROJECT_ID]
 
 set -euo pipefail
 
 BASEDIR="$( cd "$(dirname "$0")" || true ; pwd -P )"
 
-if [ -n "$1" ]; then
-  GOOGLE_CLOUD_PROJECT="$1"
-fi
-[ -z "$GOOGLE_CLOUD_PROJECT" ] && GOOGLE_CLOUD_PROJECT=$(gcloud config list --format 'value(core.project)')
+GOOGLE_CLOUD_PROJECT=${1:-$(gcloud config list --format 'value(core.project)')}
 
 gcloud iam roles create appengine_deployer_gh_actions --file="$BASEDIR/appengine_deployer_role.yml" --project="${GOOGLE_CLOUD_PROJECT}"
 gcloud iam service-accounts create github-actions-deployment --display-name "github-actions-deployment" --project="${GOOGLE_CLOUD_PROJECT}"
