@@ -4,7 +4,6 @@ set -euo pipefail
 
 # For a set of provided URLs, measure average response time for each one.
 # https://gist.github.com/siberex/9adb939b1c7872404672697ee7985188
-# curl https://gist.githubusercontent.com/siberex/9adb939b1c7872404672697ee7985188/raw/9fc0f3fbd615e527c103ef892745a6918cefa2ed/curl_time_request.sh | bash
 
 NUM_REQUESTS=100
 
@@ -13,6 +12,9 @@ while IFS='' read -r line; do URLS+=("$line"); done < <(cat << END_OS_LIST
 be.ololo.li
 ch.ololo.li
 de.ololo.li
+hk.ololo.li
+jp.ololo.li
+kr.ololo.li
 END_OS_LIST
 )
 
