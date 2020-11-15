@@ -17,7 +17,7 @@ BASEDIR="$(
   pwd -P
 )"
 
-OUTPUT_FILE=${1:-"$BASEDIR/output.txt"}
+OUTPUT_FILE=${1:-"$BASEDIR/honeypot-redirects.txt"}
 
 # Truncate out file
 echo "" > "$OUTPUT_FILE"
@@ -58,16 +58,19 @@ do
   # Description:
   # 1. rsync will gather list of *.iso, *.tar.xz and *.tar.gz files from linux distros mirror.
   # 2. grep '\-rw\-r\-\-r\-\-' is needed to filter out directories and keep only files.
-  # 3. awk '$2 > min_size { print }' is needed to filter produced list of files by minimal size
+  # 3. awk '{gsub(/[^0-9]/, "", $2)} 1' replaces non-numeric characters in the `size` column,
+  #    because with some systems and locale settings rsync outputs sizes with separators
+  #    (like 1,085,276,160 instead of 1085276160).
+  # 4. awk '$2 > min_size { print }' is needed to filter produced list of files by minimal size,
   #    because rsync `--min-size` seems to have no effect with `--dry-run` and `--list-only`.
-  #    Note this filter will not work on some systems where rsync outputs size with separators
-  #       (like 123'456'789 instead of 123456789).
-  #    In that case output will contain small files too.
-  # 4. awk '{ print prefix$5 }' converts file path to prefixed URL.
+  # 5. grep -iv "snapshot" filters out short-lived snapshot distro links.
+  # 6. awk '{ print prefix$5 }' converts file path to prefixed URL.
   rsync -rv --include="*/" --include="*.iso" --include="*.tar.xz" --include="*.tar.gz" --exclude="*" \
         --min-size="$MIN_SIZE" --dry-run --list-only "rsync://mirror.yandex.ru/${os}" . 2>/dev/null \
         | grep '\-rw\-r\-\-r\-\-' \
+        | awk '{gsub(/[^0-9]/, "", $2)} 1' \
         | awk -v min_size="$MIN_SIZE" '$2 > min_size { print }' \
+        | grep -iv "snapshot" \
         | awk -v prefix="$URL_PREFIX/${os}/" '{ print prefix$5 }' \
         > "$TMP_OUTPUT_DIR/${os}.txt"
 
@@ -82,6 +85,7 @@ echo Saved "$OUTPUT_FILE"
 echo Checking URLs availability...
 
 # Check produced URL list
+# check_urls.sh: https://gist.github.com/siberex/318db26ffc6d2665607c46190d0a231c
 "$BASEDIR/check_urls.sh" "$OUTPUT_FILE"
 
 cleanup
