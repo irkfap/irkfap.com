@@ -20,19 +20,17 @@ kr.ololo.li
 END_OS_LIST
 )
 
-for url in ${URLS[*]}; do
-  url=$(echo | awk -v url="$url" 'BEGIN {OFS=""} {if (url ~ /^https?:\/\//) print url; else print "https://", url}')
-  #echo "Measuring response time for $url"
-
+for link in ${URLS[*]}; do
+  url=$(echo | awk -v url="$link" 'BEGIN {OFS=""} {if (url ~ /^https?:\/\//) print url; else print "https://", url}')
   req_time_sum=0
   for (( i=1; i<=NUM_REQUESTS; i++ )); do
     # Measure either %{time_starttransfer} or %{time_total}
     req_time=$(curl -s -o /dev/null -w "%{time_total}" "$url" | sed 's/,/\./')
     #echo "$req_time"
-    req_time_sum=$(awk "BEGIN{ print $req_time_sum + $req_time }")
+    req_time_sum=$(awk "BEGIN{ print $req_time_sum + $req_time }" | sed 's/,/\./')
   done
 
   req_avg_time=$(awk "BEGIN{ print $req_time_sum / $NUM_REQUESTS }")
 
-  printf "%s\t%s\n" "$url" "$req_avg_time"
+  printf "%s\t%s\n" "$link" "$req_avg_time"
 done
