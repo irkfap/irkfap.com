@@ -64,13 +64,15 @@ do
   # 4. awk '$2 > min_size { print }' is needed to filter produced list of files by minimal size,
   #    because rsync `--min-size` seems to have no effect with `--dry-run` and `--list-only`.
   # 5. grep -iv "snapshot" filters out short-lived snapshot distro links.
-  # 6. awk '{ print prefix$5 }' converts file path to prefixed URL.
+  # 6. grep -iEv "build\\d+" filters out short-lived links like "openSUSE_Rat.x86_64-4.13.0-EFI-Build31.50.iso"
+  # 7. awk '{ print prefix$5 }' converts file path to prefixed URL.
   rsync -rv --include="*/" --include="*.iso" --include="*.tar.xz" --include="*.tar.gz" --exclude="*" \
         --min-size="$MIN_SIZE" --dry-run --list-only "rsync://mirror.yandex.ru/${os}" . 2>/dev/null \
         | grep '\-rw\-r\-\-r\-\-' \
         | awk '{gsub(/[^0-9]/, "", $2)} 1' \
         | awk -v min_size="$MIN_SIZE" '$2 > min_size { print }' \
         | grep -iv "snapshot" \
+        | grep -iEv "build\\d+" \
         | awk -v prefix="$URL_PREFIX/${os}/" '{ print prefix$5 }' \
         > "$TMP_OUTPUT_DIR/${os}.txt"
 
