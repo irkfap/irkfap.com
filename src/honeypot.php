@@ -151,17 +151,9 @@ https://mirror.yandex.ru/altlinux/p8/images/education/alt-education-8.2-x86_64.i
 https://mirror.yandex.ru/archlinux/iso/archboot/2016.08/archlinux-2016.08-1-archboot.iso
 https://mirror.yandex.ru/archlinux/iso/archboot/2018.06/archlinux-2018.06-1-archboot.iso
 https://mirror.yandex.ru/archlinux/iso/archboot/2020.07/archlinux-2020.07-1-archboot.iso
-https://mirror.yandex.ru/archlinux/iso/2020.11.01/archlinux-2020.11.01-x86_64.iso
-https://mirror.yandex.ru/archlinux/iso/2020.09.01/archlinux-2020.09.01-x86_64.iso
 https://mirror.yandex.ru/archlinux/iso/archboot/2016.12/archlinux-2016.12-1-archboot.iso
-https://mirror.yandex.ru/archlinux/iso/2020.10.01/archlinux-2020.10.01-x86_64.iso
-https://mirror.yandex.ru/centos/6.10/isos/x86_64/CentOS-6.10-x86_64-bin-DVD1.iso
-https://mirror.yandex.ru/centos/6.10/isos/i386/CentOS-6.10-i386-bin-DVD1.iso
-https://mirror.yandex.ru/centos/6.10/isos/x86_64/CentOS-6.10-x86_64-LiveDVD.iso
-https://mirror.yandex.ru/centos/6.10/isos/i386/CentOS-6.10-i386-bin-DVD2.iso
 https://mirror.yandex.ru/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso
 https://mirror.yandex.ru/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
-https://mirror.yandex.ru/centos/6.10/isos/x86_64/CentOS-6.10-x86_64-bin-DVD2.iso
 https://mirror.yandex.ru/debian/pool/main/t/texlive-extra/texlive-extra_2014.20141024.orig.tar.xz
 https://mirror.yandex.ru/debian/pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_9.2.148.orig.tar.gz
 https://mirror.yandex.ru/debian/pool/main/r/redeclipse-data/redeclipse-data_1.4.orig.tar.xz
@@ -173,7 +165,6 @@ https://mirror.yandex.ru/debian/pool/main/t/texlive-extra/texlive-extra_2018.201
 https://mirror.yandex.ru/debian/pool/main/s/sagemath-database-cremona-elliptic-curves/sagemath-database-cremona-elliptic-curves_0~20191029.orig.tar.gz
 https://mirror.yandex.ru/fedora/russianfedora/releases/RFRemix/15/Live/x86_64/RFRemix-15-x86_64-LiveDVD-KDE.iso
 https://mirror.yandex.ru/fedora/russianfedora/releases/RFRemix/11/Live/i686/RFRemix-11-i686-Live-XFCE.iso
-https://mirror.yandex.ru/fedora/stage/33_RC-1.2/Labs/x86_64/iso/Fedora-Games-Live-x86_64-33-1.2.iso
 https://mirror.yandex.ru/fedora/russianfedora/releases/RFRemix/14/RFRemix/x86_64/iso/RFRemix-14-x86_64-disc1.iso
 https://mirror.yandex.ru/fedora/russianfedora/releases/test/RFRemix/27_Beta/Spins/x86_64/RFRemix-MATE_Compiz-Live-x86_64-27_Beta-1.2.iso
 https://mirror.yandex.ru/fedora/russianfedora/releases/RFRemix/24/Workstation/i386/iso/RFRemix-Live-Workstation-i686-24-1.6.iso
@@ -191,13 +182,9 @@ https://mirror.yandex.ru/freebsd/releases/powerpc/powerpc/ISO-IMAGES/12.2/FreeBS
 https://mirror.yandex.ru/freebsd/releases/sparc64/sparc64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-sparc64-dvd1.iso
 https://mirror.yandex.ru/freebsd/releases/i386/i386/ISO-IMAGES/11.4/FreeBSD-11.4-RELEASE-i386-dvd1.iso
 https://mirror.yandex.ru/freebsd/releases/amd64/amd64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-dvd1.iso
-https://mirror.yandex.ru/gentoo-distfiles/distfiles/52/chromium-86.0.4240.193.tar.xz
-https://mirror.yandex.ru/gentoo-distfiles/distfiles/82/amd64-debug-libreoffice-6.4.6.2-r2.tar.xz
-https://mirror.yandex.ru/gentoo-distfiles/distfiles/b9/x86-debug-libreoffice-6.4.6.2-r2.tar.xz
 https://mirror.yandex.ru/gentoo-distfiles/distfiles/92/noto-20200308.tar.gz
 https://mirror.yandex.ru/gentoo-distfiles/distfiles/ca/android-studio-ide-193.6626763-linux.tar.gz
 https://mirror.yandex.ru/gentoo-distfiles/distfiles/13/noto-20200521.tar.gz
-https://mirror.yandex.ru/gentoo-distfiles/distfiles/07/chromium-87.0.4280.60.tar.xz
 https://mirror.yandex.ru/linuxmint/stable/13/linuxmint-13-cinnamon-dvd-32bit.iso
 https://mirror.yandex.ru/linuxmint/stable/17.2/linuxmint-17.2-cinnamon-nocodecs-64bit.iso
 https://mirror.yandex.ru/linuxmint/stable/19.1/linuxmint-19.1-xfce-32bit.iso
@@ -209,9 +196,6 @@ https://mirror.yandex.ru/linuxmint/stable/10/linuxmint-10-lxde-cd-i386.iso
 https://mirror.yandex.ru/linuxmint/stable/8/LinuxMint-8-KDE.iso
 https://mirror.yandex.ru/linuxmint/debian/lmde-2-201701-mate-32bit.iso
 https://mirror.yandex.ru/openmandriva/release_current/OpenMandriva_Lx_3/OpenMandrivaLx.3.03-PLASMA.x86_64.iso
-https://mirror.yandex.ru/openmandriva/release_current/OpenMandriva_Lx_4/OpenMandrivaLx.4.0-plasma.x86_64.iso
-https://mirror.yandex.ru/openmandriva/release_current/OpenMandriva_Lx_4/OpenMandrivaLx.4.0-plasma.znver1.iso
-https://mirror.yandex.ru/openmandriva/release_current/OpenMandriva_Lx_3/OpenMandrivaLx.3.03-PLASMA.i586.iso
 https://mirror.yandex.ru/opensuse/repositories/OBS:/Server:/2.6/images/iso/obs-server.x86_64-2.6.10-Build3.129.install.iso
 https://mirror.yandex.ru/opensuse/repositories/Virtualization:/Appliances:/Images:/openSUSE-Tumbleweed/openSUSE_Tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Build66.1-Media.iso
 https://mirror.yandex.ru/opensuse/repositories/devel:/ARM:/Factory:/Contrib:/HEAD/images/openSUSE-Tumbleweed-ARM-KDE.aarch64-rootfs.aarch64-2019.03.22-Build10.8.tar.xz
@@ -239,7 +223,6 @@ https://mirror.yandex.ru/ubuntu/pool/universe/o/otb/otb_7.1.0+dfsg.orig.tar.xz
 https://mirror.yandex.ru/ubuntu/pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz
 https://mirror.yandex.ru/ubuntu/pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_9.1.85.orig-ppc64el.tar.gz
 https://mirror.yandex.ru/ubuntu/pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_10.1.243.orig-ppc64el.tar.xz
-https://mirror.yandex.ru/ubuntu/pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_10.1.168.orig-ppc64el.tar.xz
 https://mirror.yandex.ru/ubuntu/pool/main/t/texlive-extra/texlive-extra_2013.20140215.orig.tar.xz
 END_OF_HONEYPOT_REDIRECT_URLS;
 
