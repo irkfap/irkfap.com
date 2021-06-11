@@ -158,7 +158,6 @@ https://mirror.yandex.ru/debian/pool/main/t/texlive-extra/texlive-extra_2014.201
 https://mirror.yandex.ru/debian/pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_9.2.148.orig.tar.gz
 https://mirror.yandex.ru/debian/pool/main/r/redeclipse-data/redeclipse-data_1.4.orig.tar.xz
 https://mirror.yandex.ru/debian/pool/main/f/fonts-noto/fonts-noto_20181227.orig.tar.gz
-https://mirror.yandex.ru/debian/pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_11.0.3.orig-arm64.tar.xz
 https://mirror.yandex.ru/debian/pool/main/r/redeclipse-data/redeclipse-data_1.6.0.orig.tar.xz
 https://mirror.yandex.ru/debian/pool/main/o/otb/otb_7.2.0+dfsg.orig.tar.xz
 https://mirror.yandex.ru/debian/pool/main/t/texlive-extra/texlive-extra_2018.20190227.orig.tar.xz
@@ -182,7 +181,6 @@ https://mirror.yandex.ru/freebsd/releases/powerpc/powerpc/ISO-IMAGES/12.2/FreeBS
 https://mirror.yandex.ru/freebsd/releases/sparc64/sparc64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-sparc64-dvd1.iso
 https://mirror.yandex.ru/freebsd/releases/i386/i386/ISO-IMAGES/11.4/FreeBSD-11.4-RELEASE-i386-dvd1.iso
 https://mirror.yandex.ru/freebsd/releases/amd64/amd64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-dvd1.iso
-https://mirror.yandex.ru/gentoo-distfiles/distfiles/92/noto-20200308.tar.gz
 https://mirror.yandex.ru/gentoo-distfiles/distfiles/ca/android-studio-ide-193.6626763-linux.tar.gz
 https://mirror.yandex.ru/gentoo-distfiles/distfiles/13/noto-20200521.tar.gz
 https://mirror.yandex.ru/linuxmint/stable/13/linuxmint-13-cinnamon-dvd-32bit.iso
@@ -195,15 +193,12 @@ https://mirror.yandex.ru/linuxmint/stable/14/linuxmint-14-mate-dvd-32bit.iso
 https://mirror.yandex.ru/linuxmint/stable/10/linuxmint-10-lxde-cd-i386.iso
 https://mirror.yandex.ru/linuxmint/stable/8/LinuxMint-8-KDE.iso
 https://mirror.yandex.ru/linuxmint/debian/lmde-2-201701-mate-32bit.iso
-https://mirror.yandex.ru/openmandriva/release_current/OpenMandriva_Lx_3/OpenMandrivaLx.3.03-PLASMA.x86_64.iso
 https://mirror.yandex.ru/opensuse/repositories/OBS:/Server:/2.6/images/iso/obs-server.x86_64-2.6.10-Build3.129.install.iso
 https://mirror.yandex.ru/opensuse/repositories/Virtualization:/Appliances:/Images:/openSUSE-Tumbleweed/openSUSE_Tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Build66.1-Media.iso
 https://mirror.yandex.ru/opensuse/repositories/devel:/ARM:/Factory:/Contrib:/HEAD/images/openSUSE-Tumbleweed-ARM-KDE.aarch64-rootfs.aarch64-2019.03.22-Build10.8.tar.xz
-https://mirror.yandex.ru/opensuse/distribution/leap/15.2/microos/iso/openSUSE-MicroOS-15.2-DVD-x86_64-Build35.47-Media.iso
 https://mirror.yandex.ru/opensuse/repositories/GNOME:/Medias/images/iso/GNOME_3.6.2.i686-3.6.2-Build1.42.iso
 https://mirror.yandex.ru/opensuse/repositories/OBS:/Server:/2.8/images/iso/obs-server.x86_64-2.8.4-Build1.65.install.iso
 https://mirror.yandex.ru/opensuse/repositories/devel:/ARM:/Factory:/Contrib:/HEAD/images/openSUSE-Tumbleweed-ARM-XFCE.aarch64-rootfs.aarch64-2019.03.22-Build10.8.tar.xz
-https://mirror.yandex.ru/opensuse/distribution/leap/15.2/microos/iso/openSUSE-MicroOS-15.2-DVD-aarch64-Build35.47-Media.iso
 https://mirror.yandex.ru/opensuse/repositories/X11:/xfce:/disks/images/iso/openSUSE_Rat.x86_64-4.13.0-EFI-Build31.50.iso
 https://mirror.yandex.ru/slackware/slackware-iso/slackware-12.1-iso/slackware-12.1-install-d2.iso
 https://mirror.yandex.ru/slackware/slackware-iso/slackware-12.1-iso/slackware-12.1-install-d3.iso
