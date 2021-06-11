@@ -53,7 +53,8 @@ Alexander Batsuev — Lead Gambling Expert<br>
 Alexander Delphist Scheglov — Lead Street Racer on Rails<br>
 Anatoly Naydenov — Lead Social Opinion Aggregator<br>
 Gleb Kolobkov — Lead Senior Travelling C++ Engineer<br>
-Ruslan Shaimardanov — Lead Pilaf Engineer<br>
+✝ Ruslan Shaimardanov — Lead Pilaf Engineer<br>
+Anton Paimyshev — Lead <a href="https://adict.ru/">Adicted</a> Design Engineer<br>
 <br>
 
 
