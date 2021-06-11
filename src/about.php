@@ -38,11 +38,11 @@ Ivan Voronkov — Lead WTF and Wat Content Generator<br>
 Maxim Penzin — Lead Weather Forecast Provider<br>
 Dmitrii Ionych Stepanov — Lead Senior Delphi Developer<br>
 Kirill Fatin — Lead Craft &amp; Draft Beers Expert<br>
-Dmitrii Chumak — Lead Crowdsourced Translation Provider<br>
+Dmitrii Chumak — Lead Crowdsourced <a href="https://tolma.ch/">Translation Provider</a><br>
 Dmitriii Lozhkin — Lead Horse Horde Handler<br>
 Sergeii Zynx Petrov — Lead Fertility Provider<br>
 Anton Chernousov — Lead Meetup Organiser<br>
-Eugene Potapov — Lead DevOps Horde Handler<br>
+Eugene Potapov — Lead <a href="https://www.itsumma.ru/">DevOps Horde</a> Handler<br>
 Anton Malyshev — Lead Irish Ambassador<br>
 Vitaly Vitroot Ivaschenko — Lead Ukraine-outsourced DevOps<br>
 Lidia Mashechko — Lead Hand Made Expert<br>
